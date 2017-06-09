@@ -52,7 +52,8 @@ public class AdlerContributionMeasuresExample {
         //fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilter()));
         fw.init();
         // Instantiate the Calculation object to run.
-        ACalculation calculation = new NumEditsCalculation();
+	fw.getConfiguration().getDataHolder().getRevisions().count();
+        //ACalculation calculation = new NumEditsCalculation();
         //ACalculation calculation = new TextOnlyCalculation();
         //ACalculation calculation = new EditOnlyCalculation();
         //ACalculation calculation = new EditLongevityCalculation();
@@ -65,8 +66,8 @@ public class AdlerContributionMeasuresExample {
         //ACalculation calculation = new TextLongevityWithPenaltyCalculationSingle();
 
         // Run and output the calculation.
-        fw.runCalculation(calculation);
-        outputter.output(calculation);
+        //fw.runCalculation(calculation);
+        //outputter.output(calculation);
         //fw.runCalculation(calculation2);
         //outputter.output(calculation2);
 
