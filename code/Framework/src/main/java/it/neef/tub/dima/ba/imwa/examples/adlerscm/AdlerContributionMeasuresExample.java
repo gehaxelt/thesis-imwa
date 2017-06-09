@@ -13,25 +13,13 @@ import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevity.TextLongevityCal
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevityWithPenalty.TextLongevityWithPenaltyCalculation;
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevityWithPenalty.TextLongevityWithPenaltyCalculationSingle;
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextOnly.TextOnlyCalculation;
-import it.neef.tub.dima.ba.imwa.impl.parser.RegexSkipDumpParser;
-import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextOnlyWithPageviews.TextOnlyWithPageviewsCalculation;
-import it.neef.tub.dima.ba.imwa.impl.calc.ArgumentsBundle;
-import it.neef.tub.dima.ba.imwa.impl.calc.RelevanceAggregator;
-import it.neef.tub.dima.ba.imwa.impl.data.*;
-import it.neef.tub.dima.ba.imwa.impl.factories.data.*;
-import it.neef.tub.dima.ba.imwa.impl.parser.PageviewParser;
-import it.neef.tub.dima.ba.imwa.impl.parser.SkipDumpParser;
-import it.neef.tub.dima.ba.imwa.impl.parser.SkipXMLContentHandler;
-import it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat;
 import it.neef.tub.dima.ba.imwa.interfaces.calc.ACalculation;
 import it.neef.tub.dima.ba.imwa.interfaces.data.IDifference;
 import it.neef.tub.dima.ba.imwa.interfaces.data.IPage;
 import it.neef.tub.dima.ba.imwa.interfaces.data.IRevision;
 import it.neef.tub.dima.ba.imwa.interfaces.diff.IDiffer;
-import it.neef.tub.dima.ba.imwa.interfaces.factories.parser.IDumpParserFactory;
 import it.neef.tub.dima.ba.imwa.interfaces.filters.post.IPostFilter;
 import it.neef.tub.dima.ba.imwa.interfaces.output.IOutput;
-import it.neef.tub.dima.ba.imwa.interfaces.parser.IDumpParser;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;
 
@@ -47,30 +35,6 @@ public class AdlerContributionMeasuresExample {
     public void run(String[] args) throws Exception {
         // Initialize the framework and the output objects.
         Framework fw = Framework.getInstance();
-        //fw.getConfiguration().setDumpParserFactory(new RegexDumpParserFactory());
-        /*
-        fw.getConfiguration().getExecutionEnvironment().registerType(ArgumentsBundle.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(RelevanceAggregator.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(Configuration.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(Contributor.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(ContributorRelevanceScore.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(DataHolder.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(DoubleDifference.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(Page.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(Pageview.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(Revision.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(RevisionRelevanceScore.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(ContributorFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(DifferenceFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(PageFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(PageviewFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(RelevanceScoreFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(RevisionFactory.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(SkipDumpParser.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(SkipXMLContentHandler.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(XmlInputFormat.class);
-        fw.getConfiguration().getExecutionEnvironment().registerType(PageviewParser.class);
-        */
         IOutput outputter = Framework.getInstance().getConfiguration().getOutputFactory().newOutput();
         // Configure the framework to use the correct options.
         fw.getConfiguration().setWikipediaDumpPath(args[0]);
@@ -81,11 +45,8 @@ public class AdlerContributionMeasuresExample {
             fw.getConfiguration().setPageviewDumpShortTag(args[2]);
         }
         fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getRegexPreFilterFactory().newIRegexPreFilter("(?is).*<ns>0</ns>.*"));
-        //fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getXpathPreFilterFactory().newIXpathPreFilter("/page[ns=\"0\"]"));
-        //fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getXqueryPreFilterFactory().newXqueryPreFilter("/page[ns=\"0\"]"));
         //fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilter()));
         fw.init();
-        //fw.getConfiguration().getDataHolder().getPages().count();
         // Instantiate the Calculation object to run.
         ACalculation calculation = new NumEditsCalculation();
         //ACalculation calculation = new TextOnlyCalculation();
@@ -111,14 +72,6 @@ public class AdlerContributionMeasuresExample {
         @Override
         public boolean filter(IPage page) {
             return page.getNameSpace() == 0;
-        }
-    }
-
-    static class RegexDumpParserFactory implements IDumpParserFactory {
-        @Override
-        public IDumpParser newDumpParser() {
-            //return new SkipDumpParser();
-            return new RegexSkipDumpParser();
         }
     }
 }
