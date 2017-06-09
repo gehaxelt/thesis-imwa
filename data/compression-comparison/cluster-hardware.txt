@@ -1,0 +1,646 @@
+ibm-power-1.dima.tu-berlin.de
+    description: Computer
+    product: IBM,8231-E2B
+    serial: IBM,021091C5P
+    width: 64 bits
+    capabilities: smp
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          product: IBM,AL730_019
+          physical id: 1
+          logical name: /proc/device-tree
+     *-memory
+          description: System memory
+          physical id: 2
+          size: 48GiB
+     *-cpu:0
+          product: POWER7 (architected), altivec supported
+          physical id: 3
+          bus info: cpu@0
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:1
+          product: POWER7 (architected), altivec supported
+          physical id: 4
+          bus info: cpu@1
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:2
+          product: POWER7 (architected), altivec supported
+          physical id: 5
+          bus info: cpu@2
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:3
+          product: POWER7 (architected), altivec supported
+          physical id: 6
+          bus info: cpu@3
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:4
+          product: POWER7 (architected), altivec supported
+          physical id: 7
+          bus info: cpu@4
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:5
+          product: POWER7 (architected), altivec supported
+          physical id: 8
+          bus info: cpu@5
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:6
+          product: POWER7 (architected), altivec supported
+          physical id: 9
+          bus info: cpu@6
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:7
+          product: POWER7 (architected), altivec supported
+          physical id: a
+          bus info: cpu@7
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:8
+          product: POWER7 (architected), altivec supported
+          physical id: b
+          bus info: cpu@8
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:9
+          product: POWER7 (architected), altivec supported
+          physical id: c
+          bus info: cpu@9
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:10
+          product: POWER7 (architected), altivec supported
+          physical id: d
+          bus info: cpu@10
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:11
+          product: POWER7 (architected), altivec supported
+          physical id: e
+          bus info: cpu@11
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:12
+          product: POWER7 (architected), altivec supported
+          physical id: f
+          bus info: cpu@12
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:13
+          product: POWER7 (architected), altivec supported
+          physical id: 10
+          bus info: cpu@13
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:14
+          product: POWER7 (architected), altivec supported
+          physical id: 11
+          bus info: cpu@14
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:15
+          product: POWER7 (architected), altivec supported
+          physical id: 12
+          bus info: cpu@15
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:16
+          product: POWER7 (architected), altivec supported
+          physical id: 13
+          bus info: cpu@16
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:17
+          product: POWER7 (architected), altivec supported
+          physical id: 14
+          bus info: cpu@17
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:18
+          product: POWER7 (architected), altivec supported
+          physical id: 15
+          bus info: cpu@18
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:19
+          product: POWER7 (architected), altivec supported
+          physical id: 16
+          bus info: cpu@19
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:20
+          product: POWER7 (architected), altivec supported
+          physical id: 17
+          bus info: cpu@20
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:21
+          product: POWER7 (architected), altivec supported
+          physical id: 18
+          bus info: cpu@21
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:22
+          product: POWER7 (architected), altivec supported
+          physical id: 19
+          bus info: cpu@22
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:23
+          product: POWER7 (architected), altivec supported
+          physical id: 1a
+          bus info: cpu@23
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:24
+          product: POWER7 (architected), altivec supported
+          physical id: 1b
+          bus info: cpu@24
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:25
+          product: POWER7 (architected), altivec supported
+          physical id: 1c
+          bus info: cpu@25
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:26
+          product: POWER7 (architected), altivec supported
+          physical id: 1d
+          bus info: cpu@26
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:27
+          product: POWER7 (architected), altivec supported
+          physical id: 1e
+          bus info: cpu@27
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:28
+          product: POWER7 (architected), altivec supported
+          physical id: 1f
+          bus info: cpu@28
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:29
+          product: POWER7 (architected), altivec supported
+          physical id: 20
+          bus info: cpu@29
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:30
+          product: POWER7 (architected), altivec supported
+          physical id: 21
+          bus info: cpu@30
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:31
+          product: POWER7 (architected), altivec supported
+          physical id: 22
+          bus info: cpu@31
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:32
+          product: POWER7 (architected), altivec supported
+          physical id: 23
+          bus info: cpu@32
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:33
+          product: POWER7 (architected), altivec supported
+          physical id: 24
+          bus info: cpu@33
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:34
+          product: POWER7 (architected), altivec supported
+          physical id: 25
+          bus info: cpu@34
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:35
+          product: POWER7 (architected), altivec supported
+          physical id: 26
+          bus info: cpu@35
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:36
+          product: POWER7 (architected), altivec supported
+          physical id: 27
+          bus info: cpu@36
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:37
+          product: POWER7 (architected), altivec supported
+          physical id: 28
+          bus info: cpu@37
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:38
+          product: POWER7 (architected), altivec supported
+          physical id: 29
+          bus info: cpu@38
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:39
+          product: POWER7 (architected), altivec supported
+          physical id: 2a
+          bus info: cpu@39
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:40
+          product: POWER7 (architected), altivec supported
+          physical id: 2b
+          bus info: cpu@40
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:41
+          product: POWER7 (architected), altivec supported
+          physical id: 2c
+          bus info: cpu@41
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:42
+          product: POWER7 (architected), altivec supported
+          physical id: 2d
+          bus info: cpu@42
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:43
+          product: POWER7 (architected), altivec supported
+          physical id: 2e
+          bus info: cpu@43
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:44
+          product: POWER7 (architected), altivec supported
+          physical id: 2f
+          bus info: cpu@44
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:45
+          product: POWER7 (architected), altivec supported
+          physical id: 30
+          bus info: cpu@45
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:46
+          product: POWER7 (architected), altivec supported
+          physical id: 31
+          bus info: cpu@46
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-cpu:47
+          product: POWER7 (architected), altivec supported
+          physical id: 32
+          bus info: cpu@47
+          version: 2.1 (pvr 003f 0201)
+          size: 3720MHz
+     *-storage:0
+          description: RAID bus controller
+          product: Obsidian chipset SCSI controller
+          vendor: IBM
+          physical id: 33
+          bus info: pci@0000:00:01.0
+          logical name: scsi0
+          version: 03
+          width: 64 bits
+          clock: 66MHz
+          capabilities: storage msi pm pcix vpd bus_master cap_list rom
+          configuration: driver=ipr latency=144
+          resources: irq:305 memory:3c007efc0000-3c007effffff memory:3c007f000000-3c007fffffff memory:3c007efa0000-3c007efbffff
+        *-generic UNCLAIMED
+             description: SCSI
+             product: 572C001SISIOA
+             vendor: IBM
+             physical id: ff.ff.ff
+             bus info: scsi@0:255.255.255
+             version: 0150
+        *-enclosure:0 UNCLAIMED
+             description: SCSI Enclosure
+             product: VSBPD6E4A  3GSAS
+             vendor: IBM
+             physical id: 8.0.0
+             bus info: scsi@0:8.0.0
+             version: 01
+             configuration: ansiversion=2
+        *-enclosure:1 UNCLAIMED
+             description: SCSI Enclosure
+             product: VSBPD6E4B  3GSAS
+             vendor: IBM
+             physical id: 8.1.0
+             bus info: scsi@0:8.1.0
+             version: 01
+             configuration: ansiversion=2
+        *-cdrom
+             description: DVD-RAM writer
+             product: RMBO0040532
+             vendor: IBM
+             physical id: 6.0.0
+             bus info: scsi@0:6.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/sr0
+             version: SA61
+             capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuration: ansiversion=2 status=nodisc
+        *-disk:0
+             description: SCSI Disk
+             product: MBF2600RC
+             vendor: IBM
+             physical id: 2.0.0
+             bus info: scsi@0:2.0.0
+             logical name: /dev/sda
+             version: 610D
+             serial: EA09PD20U3FF
+             size: 558GiB (600GB)
+             capacity: 665GiB (714GB)
+             capabilities: 10000rpm partitioned partitioned:dos
+             configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512 signature=f5f70100
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@0:2.0.0,1
+                logical name: /dev/sda1
+                version: 1.0
+                serial: 29c40a4c-5c69-4bc5-bc8a-cf6ddc75bde0
+                size: 558GiB
+                capacity: 558GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink extents ext4 ext2 initialized
+                configuration: created=2013-11-29 10:36:22 filesystem=ext4 modified=2013-12-08 16:39:13 mounted=2013-11-29 10:39:56 state=clean
+        *-disk:1
+             description: SCSI Disk
+             product: MBF2600RC
+             vendor: IBM
+             physical id: 3.0.0
+             bus info: scsi@0:3.0.0
+             logical name: /dev/sdb
+             version: 610D
+             serial: EA09PD20U2NA
+             size: 558GiB (600GB)
+             capacity: 665GiB (714GB)
+             capabilities: 10000rpm partitioned partitioned:dos
+             configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512 signature=934e0900
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@0:3.0.0,1
+                logical name: /dev/sdb1
+                version: 1.0
+                serial: 5336415d-7f72-4057-a8ee-d5ba9a37fcef
+                size: 558GiB
+                capacity: 558GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink extents ext4 ext2 initialized
+                configuration: created=2013-12-13 17:19:39 filesystem=ext4 lastmountpoint=/openstack modified=2015-02-06 17:04:11 mounted=2015-02-06 16:57:12 state=clean
+        *-disk:2
+             description: SCSI Disk
+             product: MBF2600RC
+             vendor: IBM
+             physical id: 4.0.0
+             bus info: scsi@0:4.0.0
+             logical name: /dev/sdc
+             version: 610D
+             serial: EA09PD10TEY4
+             size: 558GiB (600GB)
+             capacity: 665GiB (714GB)
+             capabilities: 10000rpm partitioned partitioned:dos
+             configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512 signature=82df0300
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@0:4.0.0,1
+                logical name: /dev/sdc1
+                version: 1.0
+                serial: 2bd6cdc5-b6f6-45e9-ada5-332db655ab6d
+                size: 558GiB
+                capacity: 558GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink extents ext4 ext2 initialized
+                configuration: created=2013-11-29 10:36:34 filesystem=ext4 modified=2013-12-08 16:39:13 mounted=2013-11-29 10:39:56 state=clean
+        *-disk:3
+             description: SCSI Disk
+             product: MBF2600RC
+             vendor: IBM
+             physical id: 5.0.0
+             bus info: scsi@0:5.0.0
+             logical name: /dev/sdd
+             version: 610D
+             serial: EA09PD20U3J0
+             size: 558GiB (600GB)
+             capacity: 665GiB (714GB)
+             capabilities: 10000rpm partitioned partitioned:dos
+             configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512 signature=50740700
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@0:5.0.0,1
+                logical name: /dev/sdd1
+                version: 1.0
+                serial: 84fc3b92-2c7b-495b-a52b-a8adb38332b2
+                size: 558GiB
+                capacity: 558GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink extents ext4 ext2 initialized
+                configuration: created=2013-11-29 10:36:40 filesystem=ext4 modified=2013-12-08 16:39:13 mounted=2013-11-29 10:39:56 state=clean
+        *-disk:4
+             description: SCSI Disk
+             product: MBE2147RC
+             vendor: IBM
+             physical id: 1.0.0
+             bus info: scsi@0:1.0.0
+             logical name: /dev/sde
+             version: 6009
+             serial: D309PC30RAV7
+             size: 136GiB (146GB)
+             capacity: 163GiB (175GB)
+             capabilities: 15000rpm partitioned partitioned:dos
+             configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=71bd0b00
+           *-volume
+                description: Linux LVM Physical Volume partition
+                physical id: 1
+                bus info: scsi@0:1.0.0,1
+                logical name: /dev/sde1
+                capacity: 136GiB
+                capabilities: primary multi
+        *-disk:5
+             description: SCSI Disk
+             product: MBC2073RC
+             vendor: IBM
+             physical id: 0.0.0
+             bus info: scsi@0:0.0.0
+             logical name: /dev/sdf
+             version: 6009
+             serial: BV59P9503CSB
+             size: 68GiB (73GB)
+             capacity: 79GiB (84GB)
+             capabilities: 15000rpm partitioned partitioned:dos
+             configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=71730700
+           *-volume:0
+                description: PPC PReP Boot partition
+                physical id: 1
+                bus info: scsi@0:0.0.0,1
+                logical name: /dev/sdf1
+                capacity: 8MiB
+                capabilities: primary bootable boot
+           *-volume:1
+                description: Linux swap / Solaris partition
+                physical id: 2
+                bus info: scsi@0:0.0.0,2
+                logical name: /dev/sdf2
+                capacity: 15GiB
+                capabilities: primary nofs
+           *-volume:2
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 3
+                bus info: scsi@0:0.0.0,3
+                logical name: /dev/sdf3
+                logical name: /
+                version: 1.0
+                serial: cd9af3f7-21df-44ad-9d93-884cd09e03f2
+                size: 52GiB
+                capacity: 52GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink recover extents ext4 ext2 initialized
+                configuration: created=2013-09-06 12:11:08 filesystem=ext4 lastmountpoint=/ modified=2017-01-13 13:13:21 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2017-01-13 13:13:27 state=mounted
+     *-usb:0
+          description: USB controller
+          product: OHCI USB Controller
+          vendor: NEC Corporation
+          physical id: 34
+          bus info: pci@0001:00:01.0
+          version: 43
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pm ohci bus_master cap_list
+          configuration: driver=ohci-pci latency=72 maxlatency=42 mingnt=1
+          resources: irq:321 memory:3c00ffffe000-3c00ffffefff
+        *-usbhost
+             product: OHCI PCI host controller
+             vendor: Linux 4.6.5-200.fc23.ppc64 ohci_hcd
+             physical id: 1
+             bus info: usb@2
+             logical name: usb2
+             version: 4.06
+             capabilities: usb-1.10
+             configuration: driver=hub slots=3 speed=12Mbit/s
+     *-usb:1
+          description: USB controller
+          product: OHCI USB Controller
+          vendor: NEC Corporation
+          physical id: 1.1
+          bus info: pci@0001:00:01.1
+          version: 43
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pm ohci bus_master cap_list
+          configuration: driver=ohci-pci latency=72 maxlatency=42 mingnt=1
+          resources: irq:322 memory:3c00fffff000-3c00ffffffff
+        *-usbhost
+             product: OHCI PCI host controller
+             vendor: Linux 4.6.5-200.fc23.ppc64 ohci_hcd
+             physical id: 1
+             bus info: usb@3
+             logical name: usb3
+             version: 4.06
+             capabilities: usb-1.10
+             configuration: driver=hub slots=2 speed=12Mbit/s
+     *-usb:2
+          description: USB controller
+          product: uPD72010x USB 2.0 Controller
+          vendor: NEC Corporation
+          physical id: 1.2
+          bus info: pci@0001:00:01.2
+          version: 04
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pm ehci bus_master cap_list
+          configuration: driver=ehci-pci latency=72 maxlatency=34 mingnt=16
+          resources: irq:323 memory:3c00ffffd000-3c00ffffd0ff
+        *-usbhost
+             product: EHCI Host Controller
+             vendor: Linux 4.6.5-200.fc23.ppc64 ehci_hcd
+             physical id: 1
+             bus info: usb@1
+             logical name: usb1
+             version: 4.06
+             capabilities: usb-2.00
+             configuration: driver=hub slots=5 speed=480Mbit/s
+     *-storage:1
+          description: RAID bus controller
+          product: Obsidian-E PCI-E SCSI controller
+          vendor: IBM
+          physical id: 35
+          bus info: pci@0003:01:00.0
+          logical name: scsi1
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: storage msi pm pciexpress bus_master cap_list rom
+          configuration: driver=ipr latency=0
+          resources: irq:21 memory:3c047dfc0000-3c047dffffff memory:3c047e000000-3c047effffff memory:3c047dfa0000-3c047dfbffff
+        *-generic UNCLAIMED
+             description: SCSI
+             product: 57B3001SISIOA
+             vendor: IBM
+             physical id: ff.ff.ff
+             bus info: scsi@1:255.255.255
+             version: 0150
+     *-storage:2
+          description: RAID bus controller
+          product: Obsidian-E PCI-E SCSI controller
+          vendor: IBM
+          physical id: 36
+          bus info: pci@0004:01:00.0
+          logical name: scsi2
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: storage msi pm pciexpress bus_master cap_list rom
+          configuration: driver=ipr latency=0
+          resources: irq:37 memory:3c04fdfc0000-3c04fdffffff memory:3c04fe000000-3c04feffffff memory:3c04fdfa0000-3c04fdfbffff
+        *-generic UNCLAIMED
+             description: SCSI
+             product: 57B3001SISIOA
+             vendor: IBM
+             physical id: ff.ff.ff
+             bus info: scsi@2:255.255.255
+             version: 0150
+     *-network:0
+          description: Ethernet interface
+          product: 82571EB Gigabit Ethernet Controller
+          vendor: Intel Corporation
+          physical id: 0
+          bus info: pci@0006:01:00.0
+          logical name: enP6p1s0f0
+          version: 06
+          serial: 5c:f3:fc:eb:4c:2e
+          size: 1Gbit/s
+          capacity: 1Gbit/s
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pm msi pciexpress bus_master cap_list rom ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+          configuration: autonegotiation=on broadcast=yes driver=e1000e driverversion=3.2.6-k duplex=full firmware=5.10-2 ip=130.149.21.78 latency=0 link=yes multicast=yes port=twisted pair speed=1Gbit/s
+          resources: irq:69 memory:3c05ffe40000-3c05ffe5ffff memory:3c05ffe60000-3c05ffe7ffff ioport:ff800(size=32) memory:3c05ffe80000-3c05ffe9ffff
+     *-network:1 DISABLED
+          description: Ethernet interface
+          product: 82571EB Gigabit Ethernet Controller
+          vendor: Intel Corporation
+          physical id: 0.1
+          bus info: pci@0006:01:00.1
+          logical name: enP6p1s0f1
+          version: 06
+          serial: 5c:f3:fc:eb:4c:2f
+          capacity: 1Gbit/s
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pm msi pciexpress bus_master cap_list rom ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+          configuration: autonegotiation=on broadcast=yes driver=e1000e driverversion=3.2.6-k firmware=5.10-2 latency=0 link=no multicast=yes port=twisted pair
+          resources: irq:70 memory:3c05ffea0000-3c05ffebffff memory:3c05ffec0000-3c05ffedffff ioport:ffc00(size=32) memory:3c05ffee0000-3c05ffefffff

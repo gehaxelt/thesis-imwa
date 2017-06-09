@@ -1,0 +1,69 @@
+73407488000: 2
+600127266816: 4
+
+Festplatte /dev/sdc: 68,4 GiB, 73407488000 Bytes, 143374000 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0xd1d00a00
+
+Gerät      Boot   Anfang      Ende  Sektoren Größe Kn Typ
+/dev/sdc1  *        2048     18431     16384    8M 41 PPC PReP Boot
+/dev/sdc2          18432  32786431  32768000 15,6G 82 Linux Swap / Solaris
+/dev/sdc3       32786432 143372287 110585856 52,7G 83 Linux
+
+
+Festplatte /dev/sdb: 558,9 GiB, 600127266816 Bytes, 1172123568 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0x90320f00
+
+Gerät      Boot Anfang       Ende   Sektoren  Größe Kn Typ
+/dev/sdb1         2048 1172121599 1172119552 558,9G fd Linux raid autodetect
+
+
+Festplatte /dev/sdf: 558,9 GiB, 600127266816 Bytes, 1172123568 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0xd6a60800
+
+Gerät      Boot Anfang       Ende   Sektoren  Größe Kn Typ
+/dev/sdf1         2048 1172121599 1172119552 558,9G fd Linux raid autodetect
+
+
+Festplatte /dev/sdd: 68,4 GiB, 73407488000 Bytes, 143374000 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0x638e0800
+
+Gerät      Boot Anfang      Ende  Sektoren Größe Kn Typ
+/dev/sdd1         2048 143372287 143370240 68,4G 8e Linux LVM
+
+
+Festplatte /dev/sda: 558,9 GiB, 600127266816 Bytes, 1172123568 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0x827c0000
+
+Gerät      Boot Anfang       Ende   Sektoren  Größe Kn Typ
+/dev/sda1         2048 1172123567 1172121520 558,9G 83 Linux
+
+
+Festplatte /dev/sde: 558,9 GiB, 600127266816 Bytes, 1172123568 Sektoren
+Einheiten: Sektoren von 1 * 512 = 512 Bytes
+Sektorgröße (logisch/physikalisch): 512 Bytes / 512 Bytes
+E/A-Größe (minimal/optimal): 512 Bytes / 512 Bytes
+Festplattenbezeichnungstyp: dos
+Festplattenbezeichner: 0xd6040c00
+
+Gerät      Boot Anfang       Ende   Sektoren  Größe Kn Typ
+/dev/sde1         2048 1172121599 1172119552 558,9G fd Linux raid autodetect

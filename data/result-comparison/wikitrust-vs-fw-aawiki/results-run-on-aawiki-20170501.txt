@@ -1,0 +1,201 @@
+TextOnlyCalculation:
+
+VasilievVV, 16.0
+Kanabekobaton, 187.0
+Korg, 427.0
+Dethic, 2.0
+Node ue, 0.0
+Aurevilly, 1015.0
+Aeæ~aawiki, 0.0
+Platonides, 204.0
+Arde~aawiki, 591.0
+Lars~aawiki, 161.0
+Tim Starling, 168.0
+Rich Farmbrough, 1.0
+Squidward~aawiki, 2.0
+Hégésippe Cormier, 411.0
+כל יכול, 3.0
+M7, 9.0
+VolkovBot, 8.0
+Pathoschild, 1.0
+##<<__-=ANONYMOUS=-__>>##, 4049.0
+Johney, 1.0
+Afar god, 0.0
+Rocastelo, 1014.0
+N3m6~aawiki, 0.0
+Jon Harald Søby, 204.0
+Program execution finished
+Job with JobID 8a3f54b7e6cb5dd3f62f787ba71fed26 has finished.
+Job Runtime: 19340 ms
+Accumulator Results: 
+- 251cb2fc48fe12aa0b3bb73b50cc9747 (java.util.ArrayList) [24 elements]
+
+=================
+
+TextLongevityCalculation
+
+VasilievVV, 0.0
+Kanabekobaton, 142.40649822709005
+Korg, 1299.7460319455927
+Dethic, 1.647358728502094
+Node ue, 0.0
+Aurevilly, 2662.5127300269637
+Aeæ~aawiki, 0.0
+Platonides, 185.62657507527985
+Arde~aawiki, 495.0181229717493
+Lars~aawiki, 157.16016283478768
+Tim Starling, 160.96830638714007
+Rich Farmbrough, 0.9339438151037712
+Squidward~aawiki, 0.0
+Hégésippe Cormier, 316.52965736485254
+כל יכול, 0.0
+M7, 7.131610652431403
+VolkovBot, 5.36632673576671
+Pathoschild, 0.0
+##<<__-=ANONYMOUS=-__>>##, 131849.50630771572
+Johney, 0.5002454622667944
+Afar god, 0.0
+Rocastelo, 2661.3468867519923
+N3m6~aawiki, 0.0
+Jon Harald Søby, 187.88699348062204
+Program execution finished
+Job with JobID bc27f485d251e004dea2a989bd3121f0 has finished.
+Job Runtime: 20216 ms
+Accumulator Results: 
+- 23ecd937a30445a1afdcc990ae1f7442 (java.util.ArrayList) [24 elements]
+
+
+=================================================
+TenRevisions
+
+VasilievVV, 0.0
+Kanabekobaton, 558.0
+Korg, 7257.592408994286
+Dethic, 8.0
+Node ue, NaN
+Aurevilly, 16137.659316969859
+Aeæ~aawiki, NaN
+Platonides, 1259.0
+Arde~aawiki, 2529.9999999999995
+Lars~aawiki, 1414.0
+Tim Starling, 1337.9999999999998
+Rich Farmbrough, 7.0
+Squidward~aawiki, 0.0
+Hégésippe Cormier, 1276.0
+כל יכול, 0.0
+M7, 30.999999999999996
+VolkovBot, 16.0
+Pathoschild, 0.0
+##<<__-=ANONYMOUS=-__>>##, NaN
+Johney, 1.0
+Afar god, NaN
+Rocastelo, 16188.448891734104
+N3m6~aawiki, NaN
+Jon Harald Søby, 1334.0
+Program execution finished
+Job with JobID 33a6f5f43fe7f2f2246c7c1a8a0c7fc6 has finished.
+Job Runtime: 20485 ms
+Accumulator Results: 
+- bc0ab4cfbd2bd74556499f32048b89b5 (java.util.ArrayList) [24 elements]
+
+==================================================
+NumEdits
+
+
+VasilievVV, 1.0
+Kanabekobaton, 1.0
+Korg, 4.0
+Dethic, 1.0
+Node ue, 1.0
+Aurevilly, 3.0
+Aeæ~aawiki, 1.0
+Platonides, 1.0
+Arde~aawiki, 1.0
+Lars~aawiki, 1.0
+Tim Starling, 1.0
+Rich Farmbrough, 1.0
+Squidward~aawiki, 1.0
+Hégésippe Cormier, 1.0
+כל יכול, 1.0
+M7, 1.0
+VolkovBot, 1.0
+Pathoschild, 1.0
+##<<__-=ANONYMOUS=-__>>##, 50.0
+Johney, 1.0
+Afar god, 1.0
+Rocastelo, 3.0
+N3m6~aawiki, 1.0
+Jon Harald Søby, 1.0
+Program execution finished
+Job with JobID 10eef294db8a14b8cba24ce431944c42 has finished.
+Job Runtime: 19191 ms
+Accumulator Results: 
+- 19994e0b7d83ce5a1ff326174fa5e91d (java.util.ArrayList) [24 elements]
+
+
+================================================
+EditOnly
+
+VasilievVV, 7769.674157303371
+Kanabekobaton, 187.0
+Korg, 5563.869565217391
+Dethic, 117.47619047619047
+Node ue, 21238.720812182746
+Aurevilly, 1007.5
+Aeæ~aawiki, 496.54838709677415
+Platonides, 203.0
+Arde~aawiki, 591.0
+Lars~aawiki, 160.5
+Tim Starling, 2133.3231810490697
+Rich Farmbrough, 333.21634615384613
+Squidward~aawiki, 240.54901960784315
+Hégésippe Cormier, 410.5
+כל יכול, 15535.401826484022
+M7, 51753.88536585366
+VolkovBot, 13484.397674418602
+Pathoschild, 146.5
+##<<__-=ANONYMOUS=-__>>##, 261651.7172567999
+Johney, 15337.666666666664
+Afar god, 21238.720812182746
+Rocastelo, 1012.5
+N3m6~aawiki, 4722.541935483871
+Jon Harald Søby, 201.5
+Program execution finished
+Job with JobID 752ffa9a7f8297eadfbb99a6f6f34ff5 has finished.
+Job Runtime: 18502 ms
+Accumulator Results: 
+- 11e9703a633b3f56953289da7e5fcf43 (java.util.ArrayList) [24 elements]
+
+
+===================================
+EditLongevityCalculation
+
+VasilievVV, -16.0
+Kanabekobaton, -187.0
+Korg, -9059.670643434525
+Dethic, 6.653919741552144
+Node ue, 0.0
+Aurevilly, -2638.378751643506
+Aeæ~aawiki, 0.0
+Platonides, -171.69509803921574
+Arde~aawiki, -591.0
+Lars~aawiki, -157.85000000000002
+Tim Starling, -1702.4585448392559
+Rich Farmbrough, -4.4461538461538685
+Squidward~aawiki, -0.05980392156861857
+Hégésippe Cormier, -356.00000000000006
+כל יכול, 0.0
+M7, -168.90264378199012
+VolkovBot, -1795.88511542364
+Pathoschild, 0.0
+##<<__-=ANONYMOUS=-__>>##, NaN
+Johney, -92.56621004566477
+Afar god, 0.0
+Rocastelo, -2634.9693351715277
+N3m6~aawiki, 16.94382022471882
+Jon Harald Søby, -121.24509803921572
+Program execution finished
+Job with JobID d054d2c06de90098b1048ef74988bab0 has finished.
+Job Runtime: 20814 ms
+Accumulator Results: 
+- 54748bffc3f47bbb84922fb3b7b7d33c (java.util.ArrayList) [24 elements]

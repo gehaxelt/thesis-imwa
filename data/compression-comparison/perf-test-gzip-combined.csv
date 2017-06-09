@@ -1,0 +1,43 @@
+pageview,slots,jobtime,chain1,chain2,datasink
+pagecounts-20160229-210000.gz,100,12s,11s,10s,29ms
+pagecounts-20160229-210000.gz,200,10s,10s,9s,54ms
+pagecounts-20160229-210000.gz,300,10s,10s,9s,44ms
+pagecounts-20160229-210000.gz,400,9s,8s,8s,50ms
+
+pagecounts-20160229-210000.txt,100,4s,3s,2s,13ms
+pagecounts-20160229-210000.txt,200,3s,3s,171ms,8ms
+pagecounts-20160229-210000.txt,300,4s,4s,185ms,7ms
+pagecounts-20160229-210000.txt,400,4s,4s,225ms,8ms
+
+/gz/ => /gz-all/,400,10m 52s, 10m 35s, 10m 43s 
+/gz/ => /bzip2/,400,13m 22s, 12m 16s, 13m 20s
+/gz/ => /plain/,400,14m 36s, 14m 29s, 14m 29s 
+
+
+gz-all-reading,100, 1m 39s, 1m 38s, 26s, 24ms 
+gz-all-reading,200, 1m 17s, 1m 17s, 33s, 9ms
+gz-all-reading,300, 1m 3s,  1m 3s, 45s, 62ms
+gz-all-reading,400, 1m 9s, 1m 9s, 1m 0s, 9ms
+
+
+plain-reading,100, 2m 12s, 2m 11s, 9s, 30ms
+plain-reading,200, 2m 13s, 2m 13s, 21s, 12ms
+plain-reading,300, 2m 21s, 2m 21s, 29s, 9ms
+plain-reading,400, 2m 23s, 2m 22s, 42s, 9ms
+
+
+bz2-reading,100, 3m 56s, 3m 56s, 56s, 25ms
+bz2-reading,200, 3m 39s, 3m 39s, 1m 36s, 9ms
+bz2-reading,300, 3m 37s, 3m 37s, 1m 55s, 41ms
+bz2-reading,400, 3m 10s, 3m 10s, 51s, 11ms
+
+
+gz-reading,100, 5m 4s, 5m 4s, 36s, 10ms
+gz-reading,200, 4m 52s, 4m 51s, 1m 12s, 9ms
+gz-reading,300, 4m 1s, 4m 1s, 1m 20s, 9ms
+gz-reading,400, 5m 16s, 5m 15s, 3m 9s, 9ms
+
+gz: 4m 52s, 4m 15s, 4m 2s, 5m 34s
+gz-all: 1m 32s, 1m 11s, 1m 7s, 1m 5s
+bzip2: 3m 57s,3m 35s,3m 35s,3m 13s
+plain: 2m 25s, 2m 23s, 2m 27s, 2m 30s

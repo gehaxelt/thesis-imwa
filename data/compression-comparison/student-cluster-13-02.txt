@@ -1,0 +1,50 @@
+time ./bin/flink-1.0.3 run -p 100 apps/code/Framework/target/Framework-1.0-SNAPSHOT.jar hdfs://ibm-power-1.dima.tu-berlin.de:44000/user/hadoop/data/wikipedia/dumps/warwiki-20161201-pages-meta-history.xml.bz2 hdfs://ibm-power-1.dima.tu-berlin.de:44000/user/hadoop/data/wikipedia/pageviews/pagecounts-20160801-000000.gz war
+
+With -p 100
+war, uncompressed:
+real    2m35.611s
+user    0m14.950s
+sys     0m0.720s
+
+war, compressed:
+real    1m37.153s
+user    0m18.839s
+sys     0m0.800s
+
+With -p 200
+war, uncompressed:
+real    2m39.062s
+user    0m21.667s
+sys     0m1.016s
+
+
+war, compressed:
+real    1m23.716s
+user    0m19.554s
+sys     0m0.956s
+
+
+With -p 300
+war, uncompressed:
+real    2m5.770s
+user    0m23.444s
+sys     0m1.196s
+
+
+war, compressed:
+real    1m22.408s
+user    0m23.739s
+sys     0m1.186s
+
+
+With -p 400
+war, uncompressed:
+real    2m30.290s
+user    0m26.051s
+sys     0m1.336s
+
+
+war, compressed:
+real    1m41.885s
+user    0m25.944s
+sys     0m1.452s

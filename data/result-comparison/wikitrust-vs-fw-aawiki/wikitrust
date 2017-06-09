@@ -1,0 +1,38 @@
+
+With rep_scaling = 1 and max_rep = 10000000.0
+
+0.000000 117 -1 2 6.390000 "Lars~aawiki"
+0.000000 296 -1 0 0.100000 "Johney"
+0.000000 110 -1 0 0.010000 "Squidward~aawiki"
+0.000000 112 -1 0 0.640000 "Platonides"
+0.000000 33 -1 1 2.630000 "Rocastelo"
+0.000000 69 -1 0 0.880000 "Korg"
+0.000000 172 -1 0 0.880000 "VolkovBot"
+0.000000 303 -1 0 0.100000 "Dethic"
+0.000000 103 -1 0 0.040000 "M7"
+0.000000 89 -1 1 2.970000 "H\195\169g\195\169sippe Cormier"
+0.000000 106 -1 0 1.000000 "Jon Harald S\195\184by"
+0.000000 93 -1 1 3.280000 "Aurevilly"
+0.000000 175 -1 0 0.100000 "N3m6~aawiki"
+0.000000 2 -1 1 2.950000 "Tim Starling"
+0.000000 399 -1 0 0.760000 "Kanabekobaton"
+
+2.88user 0.26system 0:25.05elapsed 12%CPU (0avgtext+0avgdata 17500maxresident)k
+32inputs+8800outputs (0major+91854minor)pagefaults 0swaps
+
+With default rep_scaling and max_reputation
+
+0.000000 117 -1 3 42.870000 "Lars~aawiki"
+0.000000 296 -1 0 0.100000 "Johney"
+0.000000 112 -1 1 4.910000 "Platonides"
+0.000000 33 -1 2 13.530000 "Rocastelo"
+0.000000 69 -1 1 5.750000 "Korg"
+0.000000 172 -1 0 0.880000 "VolkovBot"
+0.000000 303 -1 0 0.100000 "Dethic"
+0.000000 89 -1 3 29.290000 "H\195\169g\195\169sippe Cormier"
+0.000000 106 -1 1 3.260000 "Jon Harald S\195\184by"
+0.000000 301 -1 0 0.080000 "VasilievVV"
+0.000000 93 -1 4 60.930000 "Aurevilly"
+0.000000 175 -1 0 0.090000 "N3m6~aawiki"
+0.000000 2 -1 1 5.000000 "Tim Starling"
+0.000000 399 -1 0 0.760000 "Kanabekobaton"

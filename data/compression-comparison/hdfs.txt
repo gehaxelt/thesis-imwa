@@ -1,0 +1,36 @@
+
+Anleitung!
+
+1.) Skpe liste checken ob Cluster in Benutzung
+2.) Falls ja -> Benutzer warten bis der andere fertig ist!
+3.) Login power1 und hadoop (sudo -i -u hadoop)  und checken ob noch ein hdfs etc läuft z.B. ps -ef|  grep namenode 
+      Oder cd /share/hadoop/current/bin   und 
+      ./hdfs dfsadmin -report
+4.) laueft HDFS nicht dann starten!
+      ../sbin/start-all.sh  oder  Instead use start-dfs.sh and start-yarn.sh
+     Wie Du willst!
+Hinweis: Version 2. stop: zuerst yarn , danach dfs ( stop-yarn.sh, stop-dfs.sh )
+                                         start: zuerst dfs , dann yarn (start-dfs.sh , start-yarn.sh ) 
+
+	   oder stop-all.sh und start-all.sh
+
+5.) läuft hdfs jetzt?
+       ./hdfs dfsadmin -report  oder ps -ef|  grep namenode  sollten dazu etwas aussagen!
+6.) Du kannst auch die Weboberfläche innerhalb des TUB VPN nutzen mit:
+      URL: http://ibm-power-1.dima.tu-berlin.de:50070
+
+Nach Beendigung der Tests alles wieder stoppen, checken ob man keine unnötigen Daten hinterlassen hat.
+
+Kein zweites HDFS starten, das gibt Ärger!!!
+
+
+======
+
+[13:18:56] felix.neutatz: If you want to access your old data
+[13:19:19] felix.neutatz: 1) shutdown the new hadoop
+[13:19:34] felix.neutatz: Using user hdfs
+[13:19:54] felix.neutatz: 2）change to user hadoop
+[13:20:10] felix.neutatz: Go to /home/hadoop
+[13:20:13] felix.neutatz: Execute
+[13:20:31] felix.neutatz: ./paranoid.sh unlock
+[13:20:40] felix.neutatz: 3) start up old hadoop

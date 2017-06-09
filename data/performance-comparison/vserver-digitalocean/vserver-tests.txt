@@ -1,0 +1,103 @@
+1-Diff EditLong
+
+4-Kern-System:
+
+Flink-1.03:
+23.36user 3.18system 9:30.10elapsed 4%CPU (0avgtext+0avgdata 234484maxresident)k
+248inputs+896outputs (6major+89888minor)pagefaults 0swaps
+
+Flink-1.14:
+19.66user 2.28system 10:34.35elapsed 3%CPU (0avgtext+0avgdata 205708maxresident)k
+0inputs+1048outputs (0major+101165minor)pagefaults 0swaps
+
+
+12-Kern:
+Flink-1.03
+real	4m46.380s
+user	0m17.320s
+sys	0m1.936s
+
+9.17user 0.78system 3:43.80elapsed 4%CPU (0avgtext+0avgdata 257264maxresident)k
+0inputs+640outputs (0major+104231minor)pagefaults 0swaps
+(bz2)
+
+Flink-1.14
+8.77user 0.71system 3:29.47elapsed 4%CPU (0avgtext+0avgdata 267252maxresident)k
+6440inputs+528outputs (0major+116335minor)pagefaults 0swaps
+8.80user 1.22system 3:18.20elapsed 5%CPU (0avgtext+0avgdata 265756maxresident)k
+0inputs+528outputs (0major+114727minor)pagefaults 0swaps (bz2)
+
+
+=======
+Wenn in RAM/temp reinpasst: (textlong)
+
+11.60user 0.85system 2:59.30elapsed 6%CPU (0avgtext+0avgdata 271368maxresident)k
+0inputs+1336outputs (0major+123819minor)pagefaults 0swaps
+10.27user 1.09system 2:33.99elapsed 7%CPU (0avgtext+0avgdata 271076maxresident)k
+3488inputs+1392outputs (26major+122840minor)pagefaults 0swaps (bzip)
+
+
+
+
+########################
+DO:
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 79
+model name      : Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+stepping        : 1
+microcode       : 0x1
+cpu MHz         : 2199.998
+cache size      : 30720 KB
+physical id     : 0
+siblings        : 1
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch arat xsaveopt vnmi ept fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips        : 4399.99
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 40 bits physical, 48 bits virtual
+power management:
+
+
+############################
+
+bgwiktionary: (textlong)
+
+12k:
+
+flink-1.14:
+
+10.25user 1.05system 1:23.75elapsed 13%CPU (0avgtext+0avgdata 268896maxresident)k
+3048inputs+544outputs (25major+121036minor)pagefaults 0swaps
+8.80user 0.79system 1:22.64elapsed 11%CPU (0avgtext+0avgdata 270260maxresident)k
+0inputs+536outputs (0major+121393minor)pagefaults 0swaps (bz2)
+
+bgwiktionary: (1-diff-editlong)
+
+12k:
+
+flink-1.14:
+8.22user 0.64system 1:15.35elapsed 11%CPU (0avgtext+0avgdata 271692maxresident)k
+0inputs+464outputs (0major+117444minor)pagefaults 0swaps
+8.22user 0.59system 1:21.10elapsed 10%CPU (0avgtext+0avgdata 268360maxresident)k
+0inputs+408outputs (0major+118592minor)pagefaults 0swaps (bz2)
+
+bgwiktionary: (normal editlong)
+
+12k:
+9.33user 0.59system 1:43.32elapsed 9%CPU (0avgtext+0avgdata 270684maxresident)k
+0inputs+624outputs (0major+123160minor)pagefaults 0swaps
+9.25user 0.82system 1:48.91elapsed 9%CPU (0avgtext+0avgdata 272192maxresident)k
+0inputs+632outputs (0major+120533minor)pagefaults 0swaps (bzip)
+
+
+

@@ -1,0 +1,61 @@
+find . -type f -iname "*20160305-pages-meta-history.xml.bz2" -print0 -size +5M | xargs -0 du -sm | sort -rn | less  
+
+
+1       ./aawiki/20160305/aawiki-20160305-pages-meta-history.xml.bz2
+5       ./tenwiki/20160305/tenwiki-20160305-pages-meta-history.xml.bz2
+10      ./omwiki/20160305/omwiki-20160305-pages-meta-history.xml.bz2
+15      ./novwiki/20160305/novwiki-20160305-pages-meta-history.xml.bz2
+20      ./kwwiki/20160305/kwwiki-20160305-pages-meta-history.xml.bz2
+30      ./cowiki/20160305/cowiki-20160305-pages-meta-history.xml.bz2
+60      ./kywiki/20160305/kywiki-20160305-pages-meta-history.xml.bz2
+90      ./pswiki/20160305/pswiki-20160305-pages-meta-history.xml.bz2
+252     ./guwiki/20160305/guwiki-20160305-pages-meta-history.xml.bz2
+526     ./kkwiki/20160305/kkwiki-20160305-pages-meta-history.xml.bz2
+1004    ./bewiki/20160305/bewiki-20160305-pages-meta-history.xml.bz2
+1546    ./skwiki/20160305/skwiki-20160305-pages-meta-history.xml.bz2
+5769    ./trwiki/20160305/trwiki-20160305-pages-meta-history.xml.bz2
+11187   ./huwiki/20160305/huwiki-20160305-pages-meta-history.xml.bz2
+
+
+./aawiki/20160305/aawiki-20160305-pages-meta-history.xml.bz2
+./tenwiki/20160305/tenwiki-20160305-pages-meta-history.xml.bz2
+./omwiki/20160305/omwiki-20160305-pages-meta-history.xml.bz2
+./novwiki/20160305/novwiki-20160305-pages-meta-history.xml.bz2
+./kwwiki/20160305/kwwiki-20160305-pages-meta-history.xml.bz2
+./cowiki/20160305/cowiki-20160305-pages-meta-history.xml.bz2
+./kywiki/20160305/kywiki-20160305-pages-meta-history.xml.bz2
+./pswiki/20160305/pswiki-20160305-pages-meta-history.xml.bz2
+./guwiki/20160305/guwiki-20160305-pages-meta-history.xml.bz2
+./kkwiki/20160305/kkwiki-20160305-pages-meta-history.xml.bz2
+./bewiki/20160305/bewiki-20160305-pages-meta-history.xml.bz2
+./skwiki/20160305/skwiki-20160305-pages-meta-history.xml.bz2
+./trwiki/20160305/trwiki-20160305-pages-meta-history.xml.bz2
+./huwiki/20160305/huwiki-20160305-pages-meta-history.xml.bz2
+
+
+Uncompressed size:
+$> cat /tmp/data.txt | while read wiki; do echo "$wiki"; bzip2 -dc "$wiki" | wc -c |  perl -lne 'printf("%.2fM\n", $_/1024/1024)' ; done
+./aawiki/20160305/aawiki-20160305-pages-meta-history.xml.bz2
+3.48M
+./tenwiki/20160305/tenwiki-20160305-pages-meta-history.xml.bz2
+106.72M
+./omwiki/20160305/omwiki-20160305-pages-meta-history.xml.bz2
+149.55M
+./novwiki/20160305/novwiki-20160305-pages-meta-history.xml.bz2
+430.64M
+./kwwiki/20160305/kwwiki-20160305-pages-meta-history.xml.bz2
+605.41M
+./cowiki/20160305/cowiki-20160305-pages-meta-history.xml.bz2
+707.25M
+./kywiki/20160305/kywiki-20160305-pages-meta-history.xml.bz2
+1148.38M
+./pswiki/20160305/pswiki-20160305-pages-meta-history.xml.bz2
+1899.33M
+./guwiki/20160305/guwiki-20160305-pages-meta-history.xml.bz2
+5030.87M
+./kkwiki/20160305/kkwiki-20160305-pages-meta-history.xml.bz2
+12619.41M
+./bewiki/20160305/bewiki-20160305-pages-meta-history.xml.bz2
+19783.65M
+./skwiki/20160305/skwiki-20160305-pages-meta-history.xml.bz2
+33418.09M
