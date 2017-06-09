@@ -1,0 +1,124 @@
+Debian 8.8
+
+$> sudo su
+$> apt-get install ocaml git opam pkg-config zlib1g-dev libmysqlclient-dev libpcre3-dev libjson-c-dev camlp4-extra p7zip-full
+$> ocaml -version
+The OCaml toplevel, version 4.01.0
+$> opam --version
+1.2.0
+$> opam init
+$> eval `opam config env`
+$> opam install pcre extlib ocamlfind json-static json-wheel mysql ocamlnet sexplib type_conv xml-light camlzip
+
+$> git clone https://github.com/collaborativetrust/OcamlLdaLibs.git
+$> cd OcamlLdaLibs
+$> make all
+$> cd ../
+$> git clone https://github.com/collaborativetrust/WikiTrust.git
+$> cd WikiTrust
+$> make all
+
+Error: Unbound module Http_client
+Makefile:63: recipe for target 'wikipedia_api.cmo' failed
+make[1]: *** [wikipedia_api.cmo] Error 2
+make[1]: Leaving directory '/root/WikiTrust/remote/analysis'
+Makefile:33: recipe for target 'all' failed
+make: *** [all] Error 2
+<<< OK to fail, because it has already built the tools in /analysis
+
+Apply patch: 
+$> git apply patch.diff
+
+diff --git a/analysis/generate_reputation.ml b/analysis/generate_reputation.ml
+index 63e6c9f..84d5dea 100644
+--- a/analysis/generate_reputation.ml
++++ b/analysis/generate_reputation.ml
+@@ -138,7 +138,7 @@ let params = {
+ 
+ let all_time_intv = {
+   start_time = 0.0; 
+-  end_time = Timeconv.time_to_float 2008 10 30 0 0 0; 
++  end_time = Timeconv.time_to_float 2020 1 1 0 0 0; (*Timeconv.time_to_float 2008 10 30 0 0 0;  *)
+ };;
+ 
+ (* Ensures consistency *)
+diff --git a/util/batch_process.py b/util/batch_process.py
+index d545fc5..63cb848 100755
+--- a/util/batch_process.py
++++ b/util/batch_process.py
+@@ -99,7 +99,7 @@ def compute_stats(descr):
+     for f in in_file_list:
+         in_file_str += f + " "
+     cmd = (opt["nice"] + opt["cmd_dir"] + 
+-           "/evalwiki -compute_stats -n_edit_judging 6 -n_text_judging 6 " + opt["dump_update_path"] +
++           "/evalwiki -compute_stats -n_edit_judging 10 -n_text_judging 10 " + opt["dump_update_path"] +
+            " -d " + dest_dir + in_file_str)
+     dodo(cmd)
+     
+and rebuild: "make all"
+
+
+==========================
+
+Flink setup:
+
+$> echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+$> echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
+$> apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+$> apt-get update
+$> apt-get install oracle-java8-set-default maven
+
+$>  java -version
+java version "1.8.0_131"
+Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+
+
+
+https://flink.apache.org/downloads.html => Select Hadoop2.7
+
+$> wget http://mirror.23media.de/apache/flink/flink-1.2.1/flink-1.2.1-bin-hadoop27-scala_2.10.tgz
+$> tar xfv flink-1.2.1-bin-hadoop27-scala_2.10.tgz 
+
+
+============================
+Framework setup:
+
+$> git clone https://github.com/gehaxelt/thesis-imwa
+$> cd thesis-imwa/code/Framework
+$> mvn clean package 
+
+
+
+================================
+WikiTrust test:
+
+$> pwd
+/root/
+$> screen -S wikitrust
+$> export DUMP="aawiki"
+$> for i in $(seq 1 1 5); do
+cd /root/WikiTrust/
+mkdir "/root/Output/$DUMP-$i";
+echo "=======================  $i  ===============" >> "/root/Output/perf-$DUMP";
+/usr/bin/time -o "/root/Output/perf-$DUMP" --append python2 /root/WikiTrust/util/batch_process.py --cmd_dir /root/WikiTrust/analysis --dir "/root/Output/$DUMP-$i" "/root/Dumps/$DUMP-20170501-pages-meta-history.xml.7z";
+cat "/root/Output/$DUMP-$i/user_reputations.txt" > "/root/Output/reputation-$DUMP-$i";
+rm -rf "/root/Output/$DUMP-$i";
+cd -;
+done
+
+export CALC="numedits"
+export DUMPS="aawiki acewiki bgwiktionary"
+for dump in $DUMPS; do
+for i in $(seq 1 1 5); do
+cd /root/flink-1.0.3
+echo "=======================  $i  ===============" >> "/root/Output/perf-$dump-$CALC";
+/usr/bin/time -o "/root/Output/perf-$dump-$CALC" --append ./bin/flink run /root/code/Framework/target/Framework-1.0-SNAPSHOT.jar "file:///root/Dumps/$dump-20170501-pages-meta-history.xml.bz2";
+cd -;
+done;
+done;
+
+
+## acewiki textlongevity / tenrevisions / textlongevitywithpenalty
+export DUMPS="acewiki"
+export CALC="test-textlwithpenality"
