@@ -13,7 +13,6 @@ import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevity.TextLongevityCal
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevityWithPenalty.TextLongevityWithPenaltyCalculation;
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextLongevityWithPenalty.TextLongevityWithPenaltyCalculationSingle;
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextOnly.TextOnlyCalculation;
-import it.neef.tub.dima.ba.imwa.impl.parser.RegexSkipDumpParser;
 import it.neef.tub.dima.ba.imwa.examples.adlerscm.TextOnlyWithPageviews.TextOnlyWithPageviewsCalculation;
 import it.neef.tub.dima.ba.imwa.impl.calc.ArgumentsBundle;
 import it.neef.tub.dima.ba.imwa.impl.calc.RelevanceAggregator;
@@ -28,12 +27,11 @@ import it.neef.tub.dima.ba.imwa.interfaces.data.IDifference;
 import it.neef.tub.dima.ba.imwa.interfaces.data.IPage;
 import it.neef.tub.dima.ba.imwa.interfaces.data.IRevision;
 import it.neef.tub.dima.ba.imwa.interfaces.diff.IDiffer;
-import it.neef.tub.dima.ba.imwa.interfaces.factories.parser.IDumpParserFactory;
 import it.neef.tub.dima.ba.imwa.interfaces.filters.post.IPostFilter;
 import it.neef.tub.dima.ba.imwa.interfaces.output.IOutput;
-import it.neef.tub.dima.ba.imwa.interfaces.parser.IDumpParser;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;
+import org.apache.hadoop.conf.Configuration;
 
 
 /**
@@ -47,7 +45,6 @@ public class AdlerContributionMeasuresExample {
     public void run(String[] args) throws Exception {
         // Initialize the framework and the output objects.
         Framework fw = Framework.getInstance();
-        //fw.getConfiguration().setDumpParserFactory(new RegexDumpParserFactory());
         /*
         fw.getConfiguration().getExecutionEnvironment().registerType(ArgumentsBundle.class);
         fw.getConfiguration().getExecutionEnvironment().registerType(RelevanceAggregator.class);
@@ -87,8 +84,9 @@ public class AdlerContributionMeasuresExample {
         fw.init();
         //fw.getConfiguration().getDataHolder().getPages().count();
         // Instantiate the Calculation object to run.
-        ACalculation calculation = new NumEditsCalculation();
+        //ACalculation calculation = new NumEditsCalculation();
         //ACalculation calculation = new TextOnlyCalculation();
+        ACalculation calculation = new TextOnlyWithPageviewsCalculation();
         //ACalculation calculation = new EditOnlyCalculation();
         //ACalculation calculation = new EditLongevityCalculation();
         //ACalculation calculation = new EditLongevityCalculationSingle();
@@ -111,14 +109,6 @@ public class AdlerContributionMeasuresExample {
         @Override
         public boolean filter(IPage page) {
             return page.getNameSpace() == 0;
-        }
-    }
-
-    static class RegexDumpParserFactory implements IDumpParserFactory {
-        @Override
-        public IDumpParser newDumpParser() {
-            //return new SkipDumpParser();
-            return new RegexSkipDumpParser();
         }
     }
 }
