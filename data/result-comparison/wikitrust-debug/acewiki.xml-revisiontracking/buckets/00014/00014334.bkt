@@ -1,0 +1,10 @@
+EditLife 1238518272 PageId: 131 rev0: 655 uid0: 0 uname0: "" NJudges: 9 Delta:    6.60 AvgSpecQ: 0.79798
+EditInc 1238518272 PageId: 131 Delta:   10.80 rev0: 647 uid0: 0 uname0: "" rev1: 649 uid1: 0 uname1: "125.165.50.117" rev2: 655 uid2: 0 uname2: "" d01:   10.80 d02:   13.80 d12:    6.60 dp2:   13.80 n01: 1 n12: 1 t01: 6769913 t12: 21003201
+EditLife 1238519382 PageId: 130 rev0: 645 uid0: 0 uname0: "" NJudges: 9 Delta:   10.20 AvgSpecQ: 0.20479
+EditInc 1238519382 PageId: 130 Delta:    1.80 rev0: 640 uid0: 0 uname0: "202.93.37.101" rev1: 641 uid1: 0 uname1: "202.93.37.90" rev2: 645 uid2: 0 uname2: "" d01:    1.80 d02:   10.20 d12:   10.20 dp2:   10.20 n01: 1 n12: 1 t01: 130 t12: 6783726
+EditInc 1238519382 PageId: 130 Delta:    1.80 rev0: 639 uid0: 0 uname0: "" rev1: 641 uid1: 0 uname1: "202.93.37.90" rev2: 645 uid2: 0 uname2: "" d01:   20.00 d02:   14.00 d12:   10.20 dp2:   10.20 n01: 2 n12: 1 t01: 4227714 t12: 6783726
+EditInc 1238519382 PageId: 130 Delta:   20.00 rev0: 639 uid0: 0 uname0: "" rev1: 640 uid1: 0 uname1: "202.93.37.101" rev2: 645 uid2: 0 uname2: "" d01:   20.00 d02:   14.00 d12:   10.20 dp2:   14.00 n01: 1 n12: 2 t01: 4227584 t12: 6783856
+EditLife 1238519524 PageId: 112 rev0: 551 uid0: 0 uname0: "" NJudges: 9 Delta:   47.38 AvgSpecQ: 0.92934
+EditInc 1238519524 PageId: 112 Delta:   17.00 rev0: 539 uid0: 0 uname0: "202.93.37.97" rev1: 540 uid1: 0 uname1: "202.93.37.101" rev2: 551 uid2: 0 uname2: "" d01:   17.00 d02:   53.40 d12:   47.38 dp2:   53.40 n01: 1 n12: 1 t01: 1383106 t12: 6784380
+EditLife 1238518585 PageId: 59 rev0: 309 uid0: 0 uname0: "" NJudges: 9 Delta:  158.80 AvgSpecQ: 0.94878
+EditInc 1238518585 PageId: 59 Delta:    1.80 rev0: 302 uid0: 0 uname0: "202.93.37.88" rev1: 303 uid1: 0 uname1: "202.93.37.90" rev2: 309 uid2: 0 uname2: "" d01:    1.80 d02:  158.80 d12:  158.80 dp2:  158.80 n01: 1 n12: 1 t01: 567 t12: 6247957

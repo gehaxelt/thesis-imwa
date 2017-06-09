@@ -1,0 +1,99 @@
+EditLife 1250516708 PageId: 205 rev0: 2110 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  205.00 AvgSpecQ: 0.99854
+EditLife 1250515936 PageId: 204 rev0: 2092 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  157.00 AvgSpecQ: 0.99660
+EditLife 1250515692 PageId: 203 rev0: 2084 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  140.00 AvgSpecQ: 0.99952
+EditLife 1250513237 PageId: 202 rev0: 2054 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  132.00 AvgSpecQ: 0.99141
+EditLife 1250514730 PageId: 199 rev0: 2071 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  133.00 AvgSpecQ: 1.00000
+EditLife 1250516657 PageId: 197 rev0: 2109 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   83.00 AvgSpecQ: 0.99732
+EditLife 1250514769 PageId: 190 rev0: 2072 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  137.00 AvgSpecQ: 0.99659
+EditLife 1250516606 PageId: 170 rev0: 2107 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  140.00 AvgSpecQ: 0.99893
+EditLife 1250516560 PageId: 168 rev0: 2106 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  152.00 AvgSpecQ: 0.99956
+EditLife 1250515917 PageId: 166 rev0: 2090 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  144.00 AvgSpecQ: 0.99352
+EditLife 1250516537 PageId: 161 rev0: 2105 uid0: 89 uname0: "JAnDbot" NJudges: 6 Delta:  154.00 AvgSpecQ: 0.97814
+EditLife 1250520061 PageId: 157 rev0: 2116 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  134.00 AvgSpecQ: 0.99950
+EditLife 1250516388 PageId: 147 rev0: 2104 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   73.00 AvgSpecQ: 1.00000
+EditLife 1250515335 PageId: 141 rev0: 2077 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  132.00 AvgSpecQ: 1.00000
+EditLife 1250515983 PageId: 139 rev0: 2094 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  150.00 AvgSpecQ: 0.99650
+EditLife 1250520028 PageId: 134 rev0: 2115 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  145.00 AvgSpecQ: 0.99402
+EditLife 1250517713 PageId: 129 rev0: 2112 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   67.00 AvgSpecQ: 0.98806
+EditLife 1250511257 PageId: 117 rev0: 2052 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  119.00 AvgSpecQ: 0.99216
+EditLife 1250511085 PageId: 116 rev0: 2050 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   63.00 AvgSpecQ: 0.99894
+EditLife 1250547466 PageId: 110 rev0: 2136 uid0: 17 uname0: "MelancholieBot" NJudges: 5 Delta:    1.00 AvgSpecQ: 1.00000
+EditLife 1250514687 PageId: 110 rev0: 2069 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  131.00 AvgSpecQ: 0.99898
+EditInc 1250547466 PageId: 110 Delta:  131.00 rev0: 536 uid0: 6 uname0: "SPQRobin" rev1: 2069 uid1: 89 uname1: "JAnDbot" rev2: 2136 uid2: 17 uname2: "MelancholieBot" d01:  131.00 d02:  132.00 d12:    1.00 dp2:  132.00 n01: 1 n12: 1 t01: 397650 t12: 32779
+EditInc 1250547466 PageId: 110 Delta:  131.00 rev0: 535 uid0: 0 uname0: "" rev1: 2069 uid1: 89 uname1: "JAnDbot" rev2: 2136 uid2: 17 uname2: "MelancholieBot" d01:  131.00 d02:  132.00 d12:    1.00 dp2:  132.00 n01: 2 n12: 1 t01: 1922391 t12: 32779
+EditLife 1250546174 PageId: 106 rev0: 2135 uid0: 17 uname0: "MelancholieBot" NJudges: 7 Delta:    1.00 AvgSpecQ: 1.00000
+EditLife 1250519134 PageId: 106 rev0: 2114 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  150.00 AvgSpecQ: 0.99750
+EditInc 1250546174 PageId: 106 Delta:  150.00 rev0: 509 uid0: 6 uname0: "SPQRobin" rev1: 2114 uid1: 89 uname1: "JAnDbot" rev2: 2135 uid2: 17 uname2: "MelancholieBot" d01:  150.00 d02:  151.00 d12:    1.00 dp2:  151.00 n01: 1 n12: 1 t01: 402100 t12: 27040
+EditInc 1250546174 PageId: 106 Delta:  150.00 rev0: 508 uid0: 0 uname0: "" rev1: 2114 uid1: 89 uname1: "JAnDbot" rev2: 2135 uid2: 17 uname2: "MelancholieBot" d01:  150.00 d02:  151.00 d12:    1.00 dp2:  151.00 n01: 2 n12: 1 t01: 9526067 t12: 27040
+EditLife 1250516111 PageId: 105 rev0: 2101 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  147.00 AvgSpecQ: 0.99350
+EditLife 1250516028 PageId: 390 rev0: 2097 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  134.00 AvgSpecQ: 0.99453
+EditLife 1250516628 PageId: 389 rev0: 2108 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  143.00 AvgSpecQ: 0.99627
+EditLife 1250514613 PageId: 388 rev0: 2067 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  137.00 AvgSpecQ: 0.99726
+EditLife 1250516098 PageId: 387 rev0: 2100 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  143.00 AvgSpecQ: 0.99425
+EditLife 1250514526 PageId: 386 rev0: 2065 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  126.00 AvgSpecQ: 1.00000
+EditLife 1250514590 PageId: 385 rev0: 2066 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  136.00 AvgSpecQ: 0.99363
+EditLife 1250514644 PageId: 384 rev0: 2068 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  156.00 AvgSpecQ: 0.99573
+EditLife 1250516130 PageId: 383 rev0: 2102 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  131.00 AvgSpecQ: 1.00000
+EditLife 1250520137 PageId: 382 rev0: 2118 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  138.00 AvgSpecQ: 0.99179
+EditLife 1250516061 PageId: 381 rev0: 2098 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  143.00 AvgSpecQ: 0.99953
+EditLife 1250516079 PageId: 371 rev0: 2099 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  145.00 AvgSpecQ: 0.99678
+EditLife 1250520086 PageId: 367 rev0: 2117 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  127.00 AvgSpecQ: 0.99423
+EditLife 1250515664 PageId: 366 rev0: 2083 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  142.00 AvgSpecQ: 0.99765
+EditLife 1250515648 PageId: 365 rev0: 2082 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  136.00 AvgSpecQ: 0.99951
+EditLife 1250514714 PageId: 363 rev0: 2070 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  145.00 AvgSpecQ: 0.99483
+EditLife 1250520658 PageId: 362 rev0: 2119 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  149.00 AvgSpecQ: 1.00000
+EditLife 1250515859 PageId: 361 rev0: 2088 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  164.00 AvgSpecQ: 0.99499
+EditLife 1250515546 PageId: 359 rev0: 2080 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  141.00 AvgSpecQ: 0.99622
+EditLife 1250497968 PageId: 217 rev0: 2047 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:   16.80 AvgSpecQ: 1.00000
+EditLife 1250520682 PageId: 209 rev0: 2120 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  136.00 AvgSpecQ: 0.99608
+EditLife 1250515877 PageId: 103 rev0: 2089 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  137.00 AvgSpecQ: 0.99708
+EditLife 1250515955 PageId: 101 rev0: 2093 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  151.00 AvgSpecQ: 0.99735
+EditLife 1250515933 PageId: 100 rev0: 2091 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   55.00 AvgSpecQ: 0.87434
+EditLife 1250516170 PageId: 99 rev0: 2103 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   12.80 AvgSpecQ: 0.95660
+EditLife 1250516006 PageId: 92 rev0: 2096 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  190.00 AvgSpecQ: 0.99825
+EditLife 1250515382 PageId: 90 rev0: 2078 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  111.00 AvgSpecQ: 1.00000
+EditLife 1250515805 PageId: 83 rev0: 2087 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  153.00 AvgSpecQ: 0.99782
+EditLife 1250515730 PageId: 82 rev0: 2086 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  151.00 AvgSpecQ: 0.99735
+EditLife 1250515519 PageId: 79 rev0: 2079 uid0: 89 uname0: "JAnDbot" NJudges: 7 Delta:  205.00 AvgSpecQ: 0.98857
+EditLife 1250522578 PageId: 78 rev0: 2125 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:    4.60 AvgSpecQ: 0.99034
+EditInc 1250522578 PageId: 78 Delta:    0.00 rev0: 379 uid0: 0 uname0: "202.93.37.101" rev1: 391 uid1: 6 uname1: "SPQRobin" rev2: 2125 uid2: 89 uname2: "JAnDbot" d01:   77.36 d02:   81.33 d12:    4.60 dp2:    4.60 n01: 2 n12: 1 t01: 18907740 t12: 405553
+EditInc 1250522578 PageId: 78 Delta:   77.36 rev0: 379 uid0: 0 uname0: "202.93.37.101" rev1: 390 uid1: 0 uname1: "" rev2: 2125 uid2: 89 uname2: "JAnDbot" d01:   77.36 d02:   81.33 d12:    4.60 dp2:   81.33 n01: 1 n12: 2 t01: 15522500 t12: 3790793
+EditInc 1250522578 PageId: 78 Delta:    0.00 rev0: 378 uid0: 0 uname0: "202.93.37.97" rev1: 391 uid1: 6 uname1: "SPQRobin" rev2: 2125 uid2: 89 uname2: "JAnDbot" d01:   75.58 d02:   79.58 d12:    4.60 dp2:    4.60 n01: 3 n12: 1 t01: 18985302 t12: 405553
+EditInc 1250522578 PageId: 78 Delta:   77.36 rev0: 378 uid0: 0 uname0: "202.93.37.97" rev1: 390 uid1: 0 uname1: "" rev2: 2125 uid2: 89 uname2: "JAnDbot" d01:   75.58 d02:   79.58 d12:    4.60 dp2:   81.33 n01: 2 n12: 2 t01: 15600062 t12: 3790793
+EditInc 1250522578 PageId: 78 Delta:   10.40 rev0: 378 uid0: 0 uname0: "202.93.37.97" rev1: 379 uid1: 0 uname1: "202.93.37.101" rev2: 2125 uid2: 89 uname2: "JAnDbot" d01:   10.40 d02:   79.58 d12:   81.33 dp2:   79.58 n01: 1 n12: 3 t01: 77562 t12: 19313293
+EditLife 1250522462 PageId: 71 rev0: 2124 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   14.80 AvgSpecQ: 1.00000
+EditLife 1250514421 PageId: 55 rev0: 2063 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  138.00 AvgSpecQ: 0.98277
+EditLife 1250514388 PageId: 51 rev0: 2061 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  153.00 AvgSpecQ: 0.99521
+EditLife 1250514341 PageId: 49 rev0: 2060 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  105.00 AvgSpecQ: 0.99357
+EditLife 1250514273 PageId: 42 rev0: 2059 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  140.00 AvgSpecQ: 0.99762
+EditLife 1250518196 PageId: 38 rev0: 2113 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   57.80 AvgSpecQ: 0.99193
+EditLife 1250517042 PageId: 34 rev0: 2111 uid0: 89 uname0: "JAnDbot" NJudges: 7 Delta:   48.80 AvgSpecQ: 0.99297
+EditLife 1250513297 PageId: 30 rev0: 2055 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:  152.00 AvgSpecQ: 0.73569
+EditLife 1250482254 PageId: 24 rev0: 2044 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:    1.00 AvgSpecQ: 1.00000
+EditInc 1250482254 PageId: 24 Delta:    0.60 rev0: 1914 uid0: 100 uname0: "SieBot" rev1: 2027 uid1: 167 uname1: "Penarc" rev2: 2044 uid2: 100 uname2: "SieBot" d01:    0.60 d02:    1.60 d12:    1.00 dp2:    1.60 n01: 1 n12: 1 t01: 158199 t12: 43903
+EditInc 1250482254 PageId: 24 Delta:    0.60 rev0: 118 uid0: 6 uname0: "SPQRobin" rev1: 2027 uid1: 167 uname1: "Penarc" rev2: 2044 uid2: 100 uname2: "SieBot" d01:  140.60 d02:  141.60 d12:    1.00 dp2:    1.60 n01: 2 n12: 1 t01: 321344 t12: 43903
+EditInc 1250482254 PageId: 24 Delta:    0.60 rev0: 117 uid0: 0 uname0: "" rev1: 2027 uid1: 167 uname1: "Penarc" rev2: 2044 uid2: 100 uname2: "SieBot" d01:  140.60 d02:  141.60 d12:    1.00 dp2:    1.60 n01: 3 n12: 1 t01: 16239345 t12: 43903
+EditLife 1250514973 PageId: 19 rev0: 2075 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:    8.40 AvgSpecQ: 0.84656
+EditLife 1250529316 PageId: 17 rev0: 2127 uid0: 17 uname0: "MelancholieBot" NJudges: 8 Delta:    1.00 AvgSpecQ: 1.00000
+EditLife 1250522711 PageId: 17 rev0: 2126 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  137.00 AvgSpecQ: 0.99530
+EditInc 1250529316 PageId: 17 Delta:  137.00 rev0: 75 uid0: 6 uname0: "SPQRobin" rev1: 2126 uid1: 89 uname1: "JAnDbot" rev2: 2127 uid2: 17 uname2: "MelancholieBot" d01:  137.00 d02:  138.00 d12:    1.00 dp2:  138.00 n01: 1 n12: 1 t01: 405707 t12: 6605
+EditInc 1250529316 PageId: 17 Delta:  137.00 rev0: 74 uid0: 0 uname0: "" rev1: 2126 uid1: 89 uname1: "JAnDbot" rev2: 2127 uid2: 17 uname2: "MelancholieBot" d01:  137.00 d02:  138.00 d12:    1.00 dp2:  138.00 n01: 2 n12: 1 t01: 5597296 t12: 6605
+EditLife 1250495545 PageId: 15 rev0: 2046 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   46.80 AvgSpecQ: 0.97863
+EditInc 1250495545 PageId: 15 Delta:    7.80 rev0: 63 uid0: 6 uname0: "SPQRobin" rev1: 1851 uid1: 44 uname1: "Md. Farhan" rev2: 2046 uid2: 89 uname2: "JAnDbot" d01:    7.80 d02:   54.60 d12:   46.80 dp2:   54.60 n01: 1 n12: 1 t01: 101780 t12: 276761
+EditInc 1250495545 PageId: 15 Delta:    7.80 rev0: 62 uid0: 0 uname0: "" rev1: 1851 uid1: 44 uname1: "Md. Farhan" rev2: 2046 uid2: 89 uname2: "JAnDbot" d01:    7.80 d02:   54.60 d12:   46.80 dp2:   54.60 n01: 2 n12: 1 t01: 16021761 t12: 276761
+EditLife 1250522403 PageId: 13 rev0: 2123 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:   54.80 AvgSpecQ: 0.99270
+EditLife 1250535194 PageId: 11 rev0: 2130 uid0: 17 uname0: "MelancholieBot" NJudges: 8 Delta:    1.00 AvgSpecQ: 1.00000
+EditLife 1250521428 PageId: 11 rev0: 2121 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:    0.60 AvgSpecQ: 1.00000
+EditInc 1250535194 PageId: 11 Delta:    0.60 rev0: 1949 uid0: 100 uname0: "SieBot" rev1: 2121 uid1: 89 uname1: "JAnDbot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:    0.60 d02:    1.60 d12:    1.00 dp2:    1.60 n01: 1 n12: 1 t01: 150581 t12: 13766
+EditInc 1250535194 PageId: 11 Delta:    2.00 rev0: 1881 uid0: 89 uname0: "JAnDbot" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:    2.00 d02:    3.00 d12:    1.60 dp2:    3.00 n01: 1 n12: 2 t01: 125077 t12: 164347
+EditInc 1250521428 PageId: 11 Delta:    2.00 rev0: 1881 uid0: 89 uname0: "JAnDbot" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2121 uid2: 89 uname2: "JAnDbot" d01:    2.00 d02:    2.00 d12:    0.60 dp2:    2.00 n01: 1 n12: 1 t01: 125077 t12: 150581
+EditInc 1250535194 PageId: 11 Delta:    0.60 rev0: 43 uid0: 6 uname0: "SPQRobin" rev1: 2121 uid1: 89 uname1: "JAnDbot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  198.60 d02:  199.60 d12:    1.00 dp2:    1.60 n01: 3 n12: 1 t01: 404426 t12: 13766
+EditInc 1250535194 PageId: 11 Delta:    2.00 rev0: 43 uid0: 6 uname0: "SPQRobin" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  198.60 d02:  199.60 d12:    1.60 dp2:    3.00 n01: 2 n12: 2 t01: 253845 t12: 164347
+EditInc 1250521428 PageId: 11 Delta:    2.00 rev0: 43 uid0: 6 uname0: "SPQRobin" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2121 uid2: 89 uname2: "JAnDbot" d01:  198.60 d02:  198.60 d12:    0.60 dp2:    2.00 n01: 2 n12: 1 t01: 253845 t12: 150581
+EditInc 1250535194 PageId: 11 Delta:  196.60 rev0: 43 uid0: 6 uname0: "SPQRobin" rev1: 1881 uid1: 89 uname1: "JAnDbot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  196.60 d02:  199.60 d12:    3.00 dp2:  199.60 n01: 1 n12: 3 t01: 128768 t12: 289424
+EditInc 1250535194 PageId: 11 Delta:    0.60 rev0: 42 uid0: 0 uname0: "" rev1: 2121 uid1: 89 uname1: "JAnDbot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  198.60 d02:  199.60 d12:    1.00 dp2:    1.60 n01: 4 n12: 1 t01: 16064982 t12: 13766
+EditInc 1250535194 PageId: 11 Delta:    2.00 rev0: 42 uid0: 0 uname0: "" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  198.60 d02:  199.60 d12:    1.60 dp2:    3.00 n01: 3 n12: 2 t01: 15914401 t12: 164347
+EditInc 1250521428 PageId: 11 Delta:    2.00 rev0: 42 uid0: 0 uname0: "" rev1: 1949 uid1: 100 uname1: "SieBot" rev2: 2121 uid2: 89 uname2: "JAnDbot" d01:  198.60 d02:  198.60 d12:    0.60 dp2:    2.00 n01: 3 n12: 1 t01: 15914401 t12: 150581
+EditInc 1250535194 PageId: 11 Delta:  196.60 rev0: 42 uid0: 0 uname0: "" rev1: 1881 uid1: 89 uname1: "JAnDbot" rev2: 2130 uid2: 17 uname2: "MelancholieBot" d01:  196.60 d02:  199.60 d12:    3.00 dp2:  199.60 n01: 2 n12: 3 t01: 15789324 t12: 289424
+EditLife 1250511189 PageId: 10 rev0: 2051 uid0: 89 uname0: "JAnDbot" NJudges: 9 Delta:  160.00 AvgSpecQ: 0.99819
+EditLife 1250505604 PageId: 8 rev0: 2049 uid0: 89 uname0: "JAnDbot" NJudges: 8 Delta:   42.00 AvgSpecQ: 1.00000

@@ -1,0 +1,44 @@
+diff --git a/analysis/generate_reputation.ml b/analysis/generate_reputation.ml
+index 63e6c9f..d2e1221 100644
+--- a/analysis/generate_reputation.ml
++++ b/analysis/generate_reputation.ml
+@@ -63,7 +63,7 @@ let include_domains = ref false
+ let ip_nbytes = ref 0
+ let time_intv = ref {
+   start_time = 0.0; 
+-  end_time = Timeconv.time_to_float 2020 10 30 0 0 0; 
++  end_time = Timeconv.time_to_float 2020 1 1 0 0 0;
+ };;
+ let user_file = ref None
+ let bucket_dir = ref ""
+@@ -138,7 +138,7 @@ let params = {
+ 
+ let all_time_intv = {
+   start_time = 0.0; 
+-  end_time = Timeconv.time_to_float 2008 10 30 0 0 0; 
++  end_time = Timeconv.time_to_float 2020 1 1 0 0 0; (*Timeconv.time_to_float 2008 10 30 0 0 0;  *)
+ };;
+ 
+ (* Ensures consistency *)
+diff --git a/util/batch_process.py b/util/batch_process.py
+index d545fc5..b821e00 100755
+--- a/util/batch_process.py
++++ b/util/batch_process.py
+@@ -99,7 +99,7 @@ def compute_stats(descr):
+     for f in in_file_list:
+         in_file_str += f + " "
+     cmd = (opt["nice"] + opt["cmd_dir"] + 
+-           "/evalwiki -compute_stats -n_edit_judging 6 -n_text_judging 6 " + opt["dump_update_path"] +
++           "/evalwiki -compute_stats -n_edit_judging 10 -n_text_judging 10 " + opt["dump_update_path"] +
+            " -d " + dest_dir + in_file_str)
+     dodo(cmd)
+ 
+@@ -341,6 +341,8 @@ def main():
+         if do_cleanup:
+             dodo("rm -rf " + options["bucket_dir"])
+ 
++    # Do not calcuulate text trust. We only need the the user reputations!
++    return
+     # Computes the text trust.
+     if do_compute_trust or do_all:
+         print_banner ("COMPUTING TEXT TRUST")

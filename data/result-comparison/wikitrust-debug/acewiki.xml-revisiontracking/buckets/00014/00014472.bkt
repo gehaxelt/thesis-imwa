@@ -1,0 +1,23 @@
+EditLife 1250419382 PageId: 142 rev0: 2011 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:  126.60 AvgSpecQ: 1.00000
+EditLife 1250413701 PageId: 133 rev0: 2009 uid0: 100 uname0: "SieBot" NJudges: 9 Delta:  112.00 AvgSpecQ: 0.99524
+EditLife 1250414726 PageId: 128 rev0: 2010 uid0: 100 uname0: "SieBot" NJudges: 9 Delta:   92.60 AvgSpecQ: 0.98584
+EditLife 1250382815 PageId: 107 rev0: 1976 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:  156.00 AvgSpecQ: 0.99231
+EditInc 1250382815 PageId: 107 Delta:    0.00 rev0: 510 uid0: 0 uname0: "202.93.37.97" rev1: 516 uid1: 6 uname1: "SPQRobin" rev2: 1976 uid2: 100 uname2: "SieBot" d01:   17.20 d02:  170.20 d12:  156.00 dp2:  156.00 n01: 2 n12: 1 t01: 19545349 t12: 265780
+EditInc 1250382815 PageId: 107 Delta:   17.20 rev0: 510 uid0: 0 uname0: "202.93.37.97" rev1: 515 uid1: 0 uname1: "" rev2: 1976 uid2: 100 uname2: "SieBot" d01:   17.20 d02:  170.20 d12:  156.00 dp2:  170.20 n01: 1 n12: 2 t01: 4224615 t12: 15586514
+EditLife 1250408906 PageId: 216 rev0: 2005 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:  150.20 AvgSpecQ: 0.99601
+EditInc 1250408906 PageId: 216 Delta:    0.00 rev0: 1015 uid0: 0 uname0: "64.60.29.66" rev1: 1017 uid1: 6 uname1: "SPQRobin" rev2: 2005 uid2: 100 uname2: "SieBot" d01:    0.60 d02:  150.80 d12:  150.20 dp2:  150.20 n01: 2 n12: 1 t01: 13908494 t12: 291761
+EditInc 1250408906 PageId: 216 Delta:    0.60 rev0: 1015 uid0: 0 uname0: "64.60.29.66" rev1: 1016 uid1: 0 uname1: "" rev2: 2005 uid2: 100 uname2: "SieBot" d01:    0.60 d02:  150.80 d12:  150.20 dp2:  150.80 n01: 1 n12: 2 t01: 3586137 t12: 10614118
+EditInc 1250408906 PageId: 216 Delta:    0.00 rev0: 1014 uid0: 0 uname0: "" rev1: 1017 uid1: 6 uname1: "SPQRobin" rev2: 2005 uid2: 100 uname2: "SieBot" d01:    1.20 d02:  151.40 d12:  150.20 dp2:  150.20 n01: 3 n12: 1 t01: 16149833 t12: 291761
+EditInc 1250408906 PageId: 216 Delta:    0.60 rev0: 1014 uid0: 0 uname0: "" rev1: 1015 uid1: 0 uname1: "64.60.29.66" rev2: 2005 uid2: 100 uname2: "SieBot" d01:    0.60 d02:  151.40 d12:  150.80 dp2:  151.40 n01: 1 n12: 3 t01: 2241339 t12: 14200255
+EditLife 1250420961 PageId: 75 rev0: 2017 uid0: 156 uname0: "CarsracBot" NJudges: 3 Delta:    2.00 AvgSpecQ: 0.60000
+EditLife 1250420909 PageId: 70 rev0: 2016 uid0: 156 uname0: "CarsracBot" NJudges: 9 Delta:    3.00 AvgSpecQ: 0.40000
+EditLife 1250419754 PageId: 64 rev0: 2012 uid0: 156 uname0: "CarsracBot" NJudges: 9 Delta:    1.00 AvgSpecQ: -0.84444
+EditLife 1250461160 PageId: 32 rev0: 2038 uid0: 100 uname0: "SieBot" NJudges: 5 Delta:  200.20 AvgSpecQ: 0.99520
+EditLife 1250407306 PageId: 29 rev0: 2004 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:  145.20 AvgSpecQ: 0.99329
+EditLife 1250438351 PageId: 24 rev0: 2027 uid0: 167 uname0: "Penarc" NJudges: 9 Delta:    0.60 AvgSpecQ: 1.00000
+EditInc 1250438351 PageId: 24 Delta:  140.00 rev0: 118 uid0: 6 uname0: "SPQRobin" rev1: 1914 uid1: 100 uname1: "SieBot" rev2: 2027 uid2: 167 uname2: "Penarc" d01:  140.00 d02:  140.60 d12:    0.60 dp2:  140.60 n01: 1 n12: 1 t01: 163145 t12: 158199
+EditInc 1250438351 PageId: 24 Delta:  140.00 rev0: 117 uid0: 0 uname0: "" rev1: 1914 uid1: 100 uname1: "SieBot" rev2: 2027 uid2: 167 uname2: "Penarc" d01:  140.00 d02:  140.60 d12:    0.60 dp2:  140.60 n01: 2 n12: 1 t01: 16081146 t12: 158199
+EditLife 1250463040 PageId: 22 rev0: 2039 uid0: 100 uname0: "SieBot" NJudges: 8 Delta:    3.00 AvgSpecQ: 1.00000
+EditInc 1250463040 PageId: 22 Delta:  149.00 rev0: 104 uid0: 6 uname0: "SPQRobin" rev1: 1868 uid1: 0 uname1: "85.61.68.155" rev2: 2039 uid2: 100 uname2: "SieBot" d01:  149.00 d02:  152.00 d12:    3.00 dp2:  152.00 n01: 1 n12: 1 t01: 122678 t12: 223356
+EditInc 1250463040 PageId: 22 Delta:  149.00 rev0: 103 uid0: 0 uname0: "" rev1: 1868 uid1: 0 uname1: "85.61.68.155" rev2: 2039 uid2: 100 uname2: "SieBot" d01:  149.00 d02:  152.00 d12:    3.00 dp2:  152.00 n01: 2 n12: 1 t01: 13541463 t12: 223356
+EditLife 1250392319 PageId: 21 rev0: 1996 uid0: 100 uname0: "SieBot" NJudges: 9 Delta:   72.00 AvgSpecQ: 0.98488

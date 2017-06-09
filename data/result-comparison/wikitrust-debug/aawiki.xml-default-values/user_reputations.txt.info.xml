@@ -1,0 +1,1 @@
+<Process Command="/home/gehaxelt/owncloud/Studium/BA/Repos/WikiTrust/analysis/generate_reputation -u processed/aawiki-orig/user_reputations.txt -buckets processed/aawiki-orig/buckets/ -write_final_reps" Version="9dd056e65c37a22f67d600dd1e87753aa0ec9e2c" Info="" Date="2017y05m18d 13:12:33 GMT"/>

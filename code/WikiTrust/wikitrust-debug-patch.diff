@@ -1,0 +1,22 @@
+diff --git a/analysis/reputation_analysis.ml b/analysis/reputation_analysis.ml
+index dd3ffda..fd3ba8c 100644
+--- a/analysis/reputation_analysis.ml
++++ b/analysis/reputation_analysis.ml
+@@ -445,6 +445,8 @@ class page
+           (* If r and r' have different author, puts r' into the vector 
+              of revisions, and analyzes it *)
+           if Revision.different_author equate_anons r r' then begin 
++            let s = Printf.sprintf "\nAdded revision: %i By: %S" r'#get_id r'#get_user_name in
++              self#writeout_string s;
+             revs <- Vec.append r' revs; 
+             (* Evaluates the newest version *)
+             if do_text then self#online_eval_newest_text; 
+@@ -470,6 +472,8 @@ class page
+         (* There were no revisions, nothing to do *)
+         None -> ()
+       | Some r' -> begin 
++          let s = Printf.sprintf "\nAdded revision: %i By: %S" r'#get_id r'#get_user_name in
++            self#writeout_string s;
+           (* Evaluates r' as new *)
+           revs <- Vec.append r' revs; 
+           (* Evaluates the newest version *)
