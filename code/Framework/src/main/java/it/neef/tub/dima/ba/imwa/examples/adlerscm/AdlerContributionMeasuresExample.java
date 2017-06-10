@@ -80,14 +80,16 @@ public class AdlerContributionMeasuresExample {
         if(args.length >= 3) {
             fw.getConfiguration().setPageviewDumpShortTag(args[2]);
         }
-        fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getRegexPreFilterFactory().newIRegexPreFilter("(?is).*<ns>0</ns>.*"));
+        //fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getRegexPreFilterFactory().newIRegexPreFilter("(?is).*<ns>0</ns>.*"));
         //fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getXpathPreFilterFactory().newIXpathPreFilter("/page[ns=\"0\"]"));
         //fw.getConfiguration().getPreFilters().add(fw.getConfiguration().getXqueryPreFilterFactory().newXqueryPreFilter("/page[ns=\"0\"]"));
-        //fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilter()));
+        fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilter()));
+        fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilterMin()));
+        fw.getConfiguration().getPostFilters().add(fw.getConfiguration().getCustomPostFilterFactory().newICustomPostFilter(new TestPostFilterMax()));
         fw.init();
-        //fw.getConfiguration().getDataHolder().getPages().count();
+        fw.getConfiguration().getDataHolder().getRevisions().count();
         // Instantiate the Calculation object to run.
-        ACalculation calculation = new NumEditsCalculation();
+        //ACalculation calculation = new NumEditsCalculation();
         //ACalculation calculation = new TextOnlyCalculation();
         //ACalculation calculation = new EditOnlyCalculation();
         //ACalculation calculation = new EditLongevityCalculation();
@@ -100,8 +102,8 @@ public class AdlerContributionMeasuresExample {
         //ACalculation calculation = new TextLongevityWithPenaltyCalculationSingle();
 
         // Run and output the calculation.
-        fw.runCalculation(calculation);
-        outputter.output(calculation);
+        //fw.runCalculation(calculation);
+        //outputter.output(calculation);
         //fw.runCalculation(calculation2);
         //outputter.output(calculation2);
 
@@ -111,6 +113,20 @@ public class AdlerContributionMeasuresExample {
         @Override
         public boolean filter(IPage page) {
             return page.getNameSpace() == 0;
+        }
+    }
+
+    static class TestPostFilterMin implements IPostFilter {
+        @Override
+        public boolean filter(IPage page) {
+            return page.getRevisions().size() >= 2;
+        }
+    }
+
+    static class TestPostFilterMax implements IPostFilter {
+        @Override
+        public boolean filter(IPage page) {
+            return page.getRevisions().size() <= 10;
         }
     }
 

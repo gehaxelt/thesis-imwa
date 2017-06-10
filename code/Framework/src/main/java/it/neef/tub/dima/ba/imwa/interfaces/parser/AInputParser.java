@@ -57,15 +57,11 @@ public abstract class AInputParser implements IInputParser {
      */
     public void applyPostFilters() throws Exception {
         this.filteredIpageDataSet = this.mergeDumpAndPageviewData();
-        /*filteredIpageDataSet = filteredIpageDataSet.filter(new FilterFunction<IPage>() {
-            @Override
-            public boolean filter(IPage iPage) throws Exception {
-                return iPage.getNameSpace() == 0;
-            }
-        });
-        */
+
 
         final List<IPostFilter> filterList = Framework.getInstance().getConfiguration().getPostFilters();
+
+        // ``outer loop``
         for (final IPostFilter filter : filterList) {
             filteredIpageDataSet = filteredIpageDataSet.filter(new FilterFunction<IPage>() {
                 @Override
@@ -76,79 +72,19 @@ public abstract class AInputParser implements IInputParser {
         }
 
         /*
-        //final List<IPreFilter> filterList = Framework.getInstance().getConfiguration().getPreFilters();
-        List<IPostFilter> test = new ArrayList<>();
-        IPostFilter filter = new IPostFilter() {
-
-            @Override
-            public boolean filter(IPage page) {
-                return false;
-            }
-        };
-        test.add(filter);
-        final List<IPostFilter> filterList = test;
-
-
-
-        class fooo implements testFunc {
-            public boolean filter() {
-                return false;
-            }
-        }
-
-        class TestFilterFunction implements FilterFunction<IPage> {
-
-            testFunc filter;
-
-            class fooo2 implements testFunc {
-                public boolean filter() {
-                    return false;
-                }
-            }
-
-            TestFilterFunction() {
-                // WORKS with fooo2()
-                // DOES NOT WORK with fooo()
-                this.filter = new fooo();
-            }
+        // ``inner loop``
+        filteredIpageDataSet = filteredIpageDataSet.filter(new FilterFunction<IPage>() {
             @Override
             public boolean filter(IPage iPage) throws Exception {
-                return filter.filter();
-            }
-        }
-
-        //for (final IPostFilter filter : filterList) {
-            filteredIpageDataSet = filteredIpageDataSet.filter(new TestFilterFunction());
-        //}
-        */
-        /* THIS WORKS??? BUT IPostFilter does not?!?!?! FML
-        for (final IPreFilter filter : filterList) {
-            filteredIpageDataSet = filteredIpageDataSet.filter(new FilterFunction<IPage>() {
-                @Override
-                public boolean filter(IPage iPage) throws Exception {
-                    return filter.filter(iPage.toString());
-                }
-            });
-        }*/
-        /*
-        filteredIpageDataSet.filter(new RichFilterFunction<IPage>() {
-            List<IPostFilter> filterList;
-            @Override
-            public void open(org.apache.flink.configuration.Configuration parameters) throws Exception {
-                super.open(parameters);
-                this.filterList = Framework.getInstance().getConfiguration().getPostFilters();
-            }
-
-            @Override
-            public boolean filter(IPage iPage) throws Exception {
-                for(IPostFilter filter : filterList) {
-                    if(filter.filter(iPage) == false) {
+                for(final IPostFilter filter : filterList) {
+                    if(false == filter.filter(iPage)) {
                         return false;
                     }
                 }
                 return true;
             }
-        });*/
+        }); */
+
     }
 
     /**
