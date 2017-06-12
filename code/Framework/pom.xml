@@ -87,11 +87,6 @@ under the License.
 			<artifactId>flink-clients_2.10</artifactId>
 			<version>${flink.version}</version>
 		</dependency>
-        <dependency>
-            <groupId>org.apache.mahout</groupId>
-            <artifactId>mahout-integration</artifactId>
-            <version>0.11.1</version>
-        </dependency>
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-integration</artifactId>
