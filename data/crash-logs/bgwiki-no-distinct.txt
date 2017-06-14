@@ -1,0 +1,73 @@
+For TextOnly:
+
+From the JobManager:
+
+06/14/2017 09:48:34     Job execution switched to status FAILED.
+org.apache.flink.client.program.ProgramInvocationException: The program execution failed: Job execution failed.
+        at org.apache.flink.client.program.Client.runBlocking(Client.java:381)
+        at org.apache.flink.client.program.Client.runBlocking(Client.java:355)
+        at org.apache.flink.client.program.Client.runBlocking(Client.java:315)
+        at org.apache.flink.client.program.ContextEnvironment.execute(ContextEnvironment.java:60)
+        at org.apache.flink.api.java.ExecutionEnvironment.execute(ExecutionEnvironment.java:855)
+        at org.apache.flink.api.java.DataSet.collect(DataSet.java:410)
+        at org.apache.flink.api.java.DataSet.print(DataSet.java:1605)
+        at it.neef.tub.dima.ba.imwa.impl.output.ConsoleOutput.output(ConsoleOutput.java:22)
+        at it.neef.tub.dima.ba.imwa.examples.adlerscm.AdlerContributionMeasuresExample.run(AdlerContributionMeasuresExample.java:104)
+        at it.neef.tub.dima.ba.imwa.Job.main(Job.java:43)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.flink.client.program.PackagedProgram.callMainMethod(PackagedProgram.java:505)
+        at org.apache.flink.client.program.PackagedProgram.invokeInteractiveModeForExecution(PackagedProgram.java:403)
+        at org.apache.flink.client.program.Client.runBlocking(Client.java:248)
+        at org.apache.flink.client.CliFrontend.executeProgramBlocking(CliFrontend.java:866)
+        at org.apache.flink.client.CliFrontend.run(CliFrontend.java:333)
+        at org.apache.flink.client.CliFrontend.parseParameters(CliFrontend.java:1192)
+        at org.apache.flink.client.CliFrontend.main(CliFrontend.java:1243)
+Caused by: org.apache.flink.runtime.client.JobExecutionException: Job execution failed.
+        at org.apache.flink.runtime.jobmanager.JobManager$$anonfun$handleMessage$1$$anonfun$applyOrElse$7.apply$mcV$sp(JobManager.scala:717)
+        at org.apache.flink.runtime.jobmanager.JobManager$$anonfun$handleMessage$1$$anonfun$applyOrElse$7.apply(JobManager.scala:663)
+        at org.apache.flink.runtime.jobmanager.JobManager$$anonfun$handleMessage$1$$anonfun$applyOrElse$7.apply(JobManager.scala:663)
+        at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+        at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+        at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41)
+        at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:401)
+        at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+        at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253)
+        at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346)
+        at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+        at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+        at java.util.Arrays.copyOf(Arrays.java:3236)
+        at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:118)
+        at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
+        at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:135)
+        at java.io.DataOutputStream.write(DataOutputStream.java:88)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.readUntilMatch(XmlInputFormat.java:185)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.next(XmlInputFormat.java:219)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.next(XmlInputFormat.java:61)
+        at org.apache.flink.api.java.hadoop.mapred.HadoopInputFormatBase.fetchNext(HadoopInputFormatBase.java:187)
+        at org.apache.flink.api.java.hadoop.mapred.HadoopInputFormatBase.reachedEnd(HadoopInputFormatBase.java:181)
+        at org.apache.flink.runtime.operators.DataSourceTask.invoke(DataSourceTask.java:173)
+        at org.apache.flink.runtime.taskmanager.Task.run(Task.java:559)
+        at java.lang.Thread.run(Thread.java:745)
+
+From the task manager:
+
+2017-06-14 09:40:57,900 INFO  org.apache.flink.runtime.taskmanager.Task                     - CHAIN DataSource (at createInput(ExecutionEnvironment.java:552) (org.apache.flink.api.java.hadoop.mapred.HadoopInputFormat)) -> Filter (Filter at parseDumpData(SkipDumpParser.java:49)) -> Map (Map at parseDumpData(SkipDumpParser.java:58)) -> Filter (Filter at parseDumpData(SkipDumpParser.java:72)) -> FlatMap (FlatMap at getRevisions(InputParser.java:91)) -> Map (Map at preProcess(TextOnlyCalculation.java:70)) -> Map (Map at revisionDataSetToContributorScore(AdlerContributionMeasuresUtils.java:50)) -> Filter (Filter at revisionDataSetToContributorScore(AdlerContributionMeasuresUtils.java:59)) -> Map (Key Extractor) (66/380) switched to FAILED with exception.
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+        at java.util.Arrays.copyOf(Arrays.java:3236)
+        at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:118)
+        at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
+        at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:135)
+        at java.io.DataOutputStream.write(DataOutputStream.java:88)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.readUntilMatch(XmlInputFormat.java:185)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.next(XmlInputFormat.java:219)
+        at it.neef.tub.dima.ba.imwa.impl.parser.XmlInputFormat$XmlRecordReader.next(XmlInputFormat.java:61)
+        at org.apache.flink.api.java.hadoop.mapred.HadoopInputFormatBase.fetchNext(HadoopInputFormatBase.java:187)
+        at org.apache.flink.api.java.hadoop.mapred.HadoopInputFormatBase.reachedEnd(HadoopInputFormatBase.java:181)
+        at org.apache.flink.runtime.operators.DataSourceTask.invoke(DataSourceTask.java:173)
+        at org.apache.flink.runtime.taskmanager.Task.run(Task.java:559)
+        at java.lang.Thread.run(Thread.java:745)
+
