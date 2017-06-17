@@ -10,9 +10,9 @@ import it.neef.tub.dima.ba.imwa.interfaces.diff.IDiffer;
  * <p>
  * Created by gehaxelt on 08.10.16.
  */
-public class LengthDiffer implements IDiffer<IDifference<Integer>, IRevision> {
+public class LengthDiffer implements IDiffer<IDifference<Double>, IRevision> {
     @Override
-    public IDifference<Integer> calculateDiff(IRevision parent, IRevision current) {
+    public IDifference<Double> calculateDiff(IRevision parent, IRevision current) {
         // If there is no parent revision, the length is 0.
         int beforeLength = 0;
         if (parent != null) {
@@ -22,8 +22,8 @@ public class LengthDiffer implements IDiffer<IDifference<Integer>, IRevision> {
         int afterLength = current.getText().length();
 
         // Return new IDifference with the absolute of the subtraction of both lengths.
-        IDifference<Integer> ld = Framework.getInstance().getConfiguration().getDifferenceFactory().newDifference();
-        ld.setDifference(new Integer(Math.abs(beforeLength - afterLength)));
+        IDifference<Double> ld = Framework.getInstance().getConfiguration().getDifferenceFactory().newDifference();
+        ld.setDifference(new Double(Math.abs(beforeLength - afterLength)));
         return ld;
     }
 }

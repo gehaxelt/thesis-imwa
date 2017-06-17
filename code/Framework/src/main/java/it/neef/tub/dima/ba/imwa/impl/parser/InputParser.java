@@ -88,7 +88,7 @@ public class InputParser extends AInputParser {
      * @return a IRevision DataSet containing all revisions of all pages.
      */
     private DataSet<IRevision> getRevisions() {
-        return this.getFilteredIpageDataSet().flatMap(new FlatMapFunction<IPage, IRevision>() {
+        return (DataSet<IRevision>) this.getFilteredIpageDataSet().flatMap(new FlatMapFunction<IPage, IRevision>() {
             @Override
             public void flatMap(IPage iPage, Collector<IRevision> collector) throws Exception {
                 for (Object r : iPage.getRevisions()) {
