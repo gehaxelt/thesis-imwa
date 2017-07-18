@@ -1,4 +1,7 @@
-Bachelor's thesis: Implementation and Evaluation of a Framework to calculate Impact Measures for Wikipedia Author
+Bachelor's thesis: Implementation and Evaluation of a Framework to Calculate Impact Measures for Wikipedia Authors
 =============
 
-This repsitory contains all code that was developed and used for the thesis: in folder ```code``` you'll find the developed framework and other code. ```data``` contains some datasets and the results for various measurements. 
+This repsitory contains all code that was developed and used for the thesis.
+
+In folder [code](code) you'll find the developed framework and other code.
+[data](data) contains datasets and the results for various measurements. 
